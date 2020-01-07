@@ -7,15 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35DAD54B111D0A89CB90D59C /* Pods_knockknocked.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5906D2C9AF7A6E70DB771DF /* Pods_knockknocked.framework */; };
 		43B4C1B723BDFCFA0060518C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1B623BDFCFA0060518C /* AppDelegate.swift */; };
 		43B4C1B923BDFCFA0060518C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1B823BDFCFA0060518C /* SceneDelegate.swift */; };
 		43B4C1BB23BDFCFA0060518C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1BA23BDFCFA0060518C /* ViewController.swift */; };
-		43B4C1BE23BDFCFA0060518C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1BC23BDFCFA0060518C /* Main.storyboard */; };
 		43B4C1C123BDFCFA0060518C /* knockknocked.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1BF23BDFCFA0060518C /* knockknocked.xcdatamodeld */; };
-		43B4C1C323BDFCFC0060518C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1C223BDFCFC0060518C /* Assets.xcassets */; };
 		43B4C1C623BDFCFC0060518C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1C423BDFCFC0060518C /* LaunchScreen.storyboard */; };
 		43B4C1D123BDFCFC0060518C /* knockknockedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1D023BDFCFC0060518C /* knockknockedTests.swift */; };
 		43B4C1DC23BDFCFC0060518C /* knockknockedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1DB23BDFCFC0060518C /* knockknockedUITests.swift */; };
+		43B4C1EA23BDFD240060518C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1E923BDFD240060518C /* Main.storyboard */; };
+		43B4C1EC23BDFD330060518C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1EB23BDFD330060518C /* Assets.xcassets */; };
+		43B4C22B23BDFD580060518C /* map_style.json in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1ED23BDFD570060518C /* map_style.json */; };
+		43B4C22C23BDFD580060518C /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1EF23BDFD570060518C /* detailViewController.swift */; };
+		43B4C22D23BDFD580060518C /* CB3DSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1F123BDFD570060518C /* CB3DSelectCell.swift */; };
+		43B4C22E23BDFD580060518C /* CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1F223BDFD570060518C /* CustomTransition.swift */; };
+		43B4C22F23BDFD580060518C /* Montserrat-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1F423BDFD570060518C /* Montserrat-MediumItalic.otf */; };
+		43B4C23023BDFD580060518C /* SIL Open Font License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1F523BDFD570060518C /* SIL Open Font License.txt */; };
+		43B4C23123BDFD580060518C /* MontserratAlternates-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1F623BDFD570060518C /* MontserratAlternates-Black.otf */; };
+		43B4C23223BDFD580060518C /* MontserratAlternates-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1F723BDFD570060518C /* MontserratAlternates-LightItalic.otf */; };
+		43B4C23323BDFD580060518C /* MontserratAlternates-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1F823BDFD570060518C /* MontserratAlternates-Medium.otf */; };
+		43B4C23423BDFD580060518C /* Montserrat-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1F923BDFD570060518C /* Montserrat-BoldItalic.otf */; };
+		43B4C23523BDFD580060518C /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1FA23BDFD570060518C /* Montserrat-Light.otf */; };
+		43B4C23623BDFD580060518C /* Montserrat-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1FB23BDFD570060518C /* Montserrat-ThinItalic.otf */; };
+		43B4C23723BDFD580060518C /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1FC23BDFD570060518C /* Montserrat-Thin.otf */; };
+		43B4C23823BDFD580060518C /* MontserratAlternates-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1FD23BDFD570060518C /* MontserratAlternates-MediumItalic.otf */; };
+		43B4C23923BDFD580060518C /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1FE23BDFD570060518C /* Montserrat-ExtraLight.otf */; };
+		43B4C23A23BDFD580060518C /* MontserratAlternates-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C1FF23BDFD570060518C /* MontserratAlternates-BlackItalic.otf */; };
+		43B4C23B23BDFD580060518C /* MontserratAlternates-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20023BDFD570060518C /* MontserratAlternates-Bold.otf */; };
+		43B4C23C23BDFD580060518C /* MontserratAlternates-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20123BDFD570060518C /* MontserratAlternates-ExtraLightItalic.otf */; };
+		43B4C23D23BDFD580060518C /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20223BDFD570060518C /* Montserrat-Bold.ttf */; };
+		43B4C23E23BDFD580060518C /* MontserratAlternates-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20323BDFD570060518C /* MontserratAlternates-Thin.otf */; };
+		43B4C23F23BDFD580060518C /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20423BDFD570060518C /* Montserrat-BlackItalic.ttf */; };
+		43B4C24023BDFD580060518C /* Montserrat-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20523BDFD570060518C /* Montserrat-LightItalic.otf */; };
+		43B4C24123BDFD580060518C /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20623BDFD570060518C /* Montserrat-Medium.otf */; };
+		43B4C24223BDFD580060518C /* MontserratAlternates-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20723BDFD570060518C /* MontserratAlternates-SemiBoldItalic.otf */; };
+		43B4C24323BDFD580060518C /* Montserrat-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20823BDFD570060518C /* Montserrat-SemiBoldItalic.otf */; };
+		43B4C24423BDFD580060518C /* Montserrat-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20923BDFD570060518C /* Montserrat-ExtraBoldItalic.otf */; };
+		43B4C24523BDFD580060518C /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20A23BDFD570060518C /* Montserrat-Italic.otf */; };
+		43B4C24623BDFD580060518C /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20B23BDFD570060518C /* MontserratAlternates-SemiBold.otf */; };
+		43B4C24723BDFD580060518C /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20C23BDFD570060518C /* Montserrat-Regular.otf */; };
+		43B4C24823BDFD580060518C /* MontserratAlternates-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20D23BDFD570060518C /* MontserratAlternates-ExtraBold.otf */; };
+		43B4C24923BDFD580060518C /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20E23BDFD570060518C /* Montserrat-Black.ttf */; };
+		43B4C24A23BDFD580060518C /* MontserratAlternates-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C20F23BDFD570060518C /* MontserratAlternates-BoldItalic.otf */; };
+		43B4C24B23BDFD580060518C /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C21023BDFD570060518C /* Montserrat-ExtraBold.otf */; };
+		43B4C24C23BDFD580060518C /* Montserrat-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C21123BDFD570060518C /* Montserrat-ExtraLightItalic.otf */; };
+		43B4C24D23BDFD580060518C /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C21223BDFD570060518C /* MontserratAlternates-Light.otf */; };
+		43B4C24E23BDFD580060518C /* MontserratAlternates-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C21323BDFD570060518C /* MontserratAlternates-ExtraLight.otf */; };
+		43B4C24F23BDFD580060518C /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C21423BDFD570060518C /* MontserratAlternates-Regular.otf */; };
+		43B4C25023BDFD580060518C /* MontserratAlternates-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C21523BDFD570060518C /* MontserratAlternates-ThinItalic.otf */; };
+		43B4C25123BDFD580060518C /* MontserratAlternates-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C21623BDFD570060518C /* MontserratAlternates-ExtraBoldItalic.otf */; };
+		43B4C25223BDFD580060518C /* MontserratAlternates-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C21723BDFD570060518C /* MontserratAlternates-Italic.otf */; };
+		43B4C25323BDFD580060518C /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C21823BDFD570060518C /* Montserrat-SemiBold.otf */; };
+		43B4C25423BDFD580060518C /* client_506099714873-3r27hlcv5kuijhn9penqfkoik73438rp.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C21923BDFD570060518C /* client_506099714873-3r27hlcv5kuijhn9penqfkoik73438rp.apps.googleusercontent.com.plist */; };
+		43B4C25523BDFD580060518C /* timeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C21B23BDFD570060518C /* timeViewController.swift */; };
+		43B4C25623BDFD580060518C /* rateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C21D23BDFD580060518C /* rateViewController.swift */; };
+		43B4C25723BDFD580060518C /* GeometryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C21E23BDFD580060518C /* GeometryHelper.swift */; };
+		43B4C25823BDFD580060518C /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22023BDFD580060518C /* CustomSlider.swift */; };
+		43B4C25923BDFD580060518C /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22123BDFD580060518C /* TitleView.swift */; };
+		43B4C25A23BDFD580060518C /* ShakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22223BDFD580060518C /* ShakeView.swift */; };
+		43B4C25B23BDFD580060518C /* EyeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22323BDFD580060518C /* EyeView.swift */; };
+		43B4C25C23BDFD580060518C /* ProgressableAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22423BDFD580060518C /* ProgressableAnimationView.swift */; };
+		43B4C25D23BDFD580060518C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22523BDFD580060518C /* BackgroundView.swift */; };
+		43B4C25E23BDFD580060518C /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22623BDFD580060518C /* MouthView.swift */; };
+		43B4C25F23BDFD580060518C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C22723BDFD580060518C /* GoogleService-Info.plist */; };
+		43B4C26023BDFD580060518C /* listViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22923BDFD580060518C /* listViewController.swift */; };
+		43B4C26123BDFD580060518C /* firstpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22A23BDFD580060518C /* firstpageViewController.swift */; };
+		43B4C3DF23BE2EA80060518C /* GQTPointQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C39623BE2EA80060518C /* GQTPointQuadTree.m */; };
+		43B4C3E023BE2EA80060518C /* GQTPointQuadTreeChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C39823BE2EA80060518C /* GQTPointQuadTreeChild.m */; };
+		43B4C3E123BE2EA80060518C /* GMUWeightedLatLng.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C39F23BE2EA80060518C /* GMUWeightedLatLng.m */; };
+		43B4C3E223BE2EA80060518C /* GMUGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3A223BE2EA80060518C /* GMUGradient.m */; };
+		43B4C3E323BE2EA80060518C /* GMUHeatmapTileLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3A323BE2EA80060518C /* GMUHeatmapTileLayer.m */; };
+		43B4C3E423BE2EA80060518C /* GMUKMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3A523BE2EA80060518C /* GMUKMLParser.m */; };
+		43B4C3E523BE2EA80060518C /* GMUGeometryRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3A623BE2EA80060518C /* GMUGeometryRenderer.m */; };
+		43B4C3E623BE2EA80060518C /* GMUGeometryCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3A923BE2EA80060518C /* GMUGeometryCollection.m */; };
+		43B4C3E723BE2EA80060518C /* GMUPlacemark.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3AC23BE2EA80060518C /* GMUPlacemark.m */; };
+		43B4C3E823BE2EA80060518C /* GMUPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3AD23BE2EA80060518C /* GMUPolygon.m */; };
+		43B4C3E923BE2EA80060518C /* GMUStyleMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3B023BE2EA80060518C /* GMUStyleMap.m */; };
+		43B4C3EA23BE2EA80060518C /* GMUFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3B123BE2EA80060518C /* GMUFeature.m */; };
+		43B4C3EB23BE2EA90060518C /* GMUGroundOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3B323BE2EA80060518C /* GMUGroundOverlay.m */; };
+		43B4C3EC23BE2EA90060518C /* GMUStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3B423BE2EA80060518C /* GMUStyle.m */; };
+		43B4C3ED23BE2EA90060518C /* GMUPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3B523BE2EA80060518C /* GMUPoint.m */; };
+		43B4C3EE23BE2EA90060518C /* GMUPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3B823BE2EA80060518C /* GMUPair.m */; };
+		43B4C3EF23BE2EA90060518C /* GMULineString.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3BD23BE2EA80060518C /* GMULineString.m */; };
+		43B4C3F023BE2EA90060518C /* GMUGeoJSONParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3C123BE2EA80060518C /* GMUGeoJSONParser.m */; };
+		43B4C3F123BE2EA90060518C /* GMUClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3C423BE2EA80060518C /* GMUClusterManager.m */; };
+		43B4C3F223BE2EA90060518C /* GMUGridBasedClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3C823BE2EA80060518C /* GMUGridBasedClusterAlgorithm.m */; };
+		43B4C3F323BE2EA90060518C /* GMUWrappingDictionaryKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3CB23BE2EA80060518C /* GMUWrappingDictionaryKey.m */; };
+		43B4C3F423BE2EA90060518C /* GMUSimpleClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3CC23BE2EA80060518C /* GMUSimpleClusterAlgorithm.m */; };
+		43B4C3F523BE2EA90060518C /* GMUNonHierarchicalDistanceBasedAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3CE23BE2EA80060518C /* GMUNonHierarchicalDistanceBasedAlgorithm.m */; };
+		43B4C3F623BE2EA90060518C /* GMUDefaultClusterRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3D723BE2EA80060518C /* GMUDefaultClusterRenderer.m */; };
+		43B4C3F723BE2EA90060518C /* GMUDefaultClusterIconGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3D923BE2EA80060518C /* GMUDefaultClusterIconGenerator.m */; };
+		43B4C3F823BE2EA90060518C /* GMUStaticCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3DC23BE2EA80060518C /* GMUStaticCluster.m */; };
+		A5BB49FAACE46792F2EE0743 /* Pods_knockknockedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DB4CAF6BFE135C1C7ED23B /* Pods_knockknockedTests.framework */; };
+		C2D1765C545675E610D60D61 /* Pods_knockknockedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E8ADE91BE7A3C66BCF939E /* Pods_knockknockedUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +120,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		127ABB5B36FD2CA1B48B566D /* Pods-knockknockedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knockknockedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-knockknockedTests/Pods-knockknockedTests.release.xcconfig"; sourceTree = "<group>"; };
+		16E8ADE91BE7A3C66BCF939E /* Pods_knockknockedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knockknockedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD78EF012BF264C4656C32D /* Pods-knockknocked.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knockknocked.debug.xcconfig"; path = "Pods/Target Support Files/Pods-knockknocked/Pods-knockknocked.debug.xcconfig"; sourceTree = "<group>"; };
+		34DB4CAF6BFE135C1C7ED23B /* Pods_knockknockedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knockknockedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B4C1B323BDFCFA0060518C /* knockknocked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = knockknocked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B4C1B623BDFCFA0060518C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43B4C1B823BDFCFA0060518C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		43B4C1BA23BDFCFA0060518C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		43B4C1BD23BDFCFA0060518C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43B4C1C023BDFCFA0060518C /* knockknocked.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = knockknocked.xcdatamodel; sourceTree = "<group>"; };
-		43B4C1C223BDFCFC0060518C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43B4C1C523BDFCFC0060518C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43B4C1C723BDFCFC0060518C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43B4C1CC23BDFCFC0060518C /* knockknockedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = knockknockedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +137,136 @@
 		43B4C1D723BDFCFC0060518C /* knockknockedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = knockknockedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B4C1DB23BDFCFC0060518C /* knockknockedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knockknockedUITests.swift; sourceTree = "<group>"; };
 		43B4C1DD23BDFCFD0060518C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B4C1E923BDFD240060518C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		43B4C1EB23BDFD330060518C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../knock knocked/knock knocked/Assets.xcassets"; sourceTree = "<group>"; };
+		43B4C1ED23BDFD570060518C /* map_style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = map_style.json; sourceTree = "<group>"; };
+		43B4C1EF23BDFD570060518C /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		43B4C1F123BDFD570060518C /* CB3DSelectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CB3DSelectCell.swift; sourceTree = "<group>"; };
+		43B4C1F223BDFD570060518C /* CustomTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTransition.swift; sourceTree = "<group>"; };
+		43B4C1F423BDFD570060518C /* Montserrat-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.otf"; sourceTree = "<group>"; };
+		43B4C1F523BDFD570060518C /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		43B4C1F623BDFD570060518C /* MontserratAlternates-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Black.otf"; sourceTree = "<group>"; };
+		43B4C1F723BDFD570060518C /* MontserratAlternates-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-LightItalic.otf"; sourceTree = "<group>"; };
+		43B4C1F823BDFD570060518C /* MontserratAlternates-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Medium.otf"; sourceTree = "<group>"; };
+		43B4C1F923BDFD570060518C /* Montserrat-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.otf"; sourceTree = "<group>"; };
+		43B4C1FA23BDFD570060518C /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		43B4C1FB23BDFD570060518C /* Montserrat-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.otf"; sourceTree = "<group>"; };
+		43B4C1FC23BDFD570060518C /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		43B4C1FD23BDFD570060518C /* MontserratAlternates-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-MediumItalic.otf"; sourceTree = "<group>"; };
+		43B4C1FE23BDFD570060518C /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		43B4C1FF23BDFD570060518C /* MontserratAlternates-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-BlackItalic.otf"; sourceTree = "<group>"; };
+		43B4C20023BDFD570060518C /* MontserratAlternates-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.otf"; sourceTree = "<group>"; };
+		43B4C20123BDFD570060518C /* MontserratAlternates-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		43B4C20223BDFD570060518C /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		43B4C20323BDFD570060518C /* MontserratAlternates-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Thin.otf"; sourceTree = "<group>"; };
+		43B4C20423BDFD570060518C /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		43B4C20523BDFD570060518C /* Montserrat-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.otf"; sourceTree = "<group>"; };
+		43B4C20623BDFD570060518C /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		43B4C20723BDFD570060518C /* MontserratAlternates-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		43B4C20823BDFD570060518C /* Montserrat-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		43B4C20923BDFD570060518C /* Montserrat-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		43B4C20A23BDFD570060518C /* Montserrat-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.otf"; sourceTree = "<group>"; };
+		43B4C20B23BDFD570060518C /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
+		43B4C20C23BDFD570060518C /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		43B4C20D23BDFD570060518C /* MontserratAlternates-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraBold.otf"; sourceTree = "<group>"; };
+		43B4C20E23BDFD570060518C /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		43B4C20F23BDFD570060518C /* MontserratAlternates-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-BoldItalic.otf"; sourceTree = "<group>"; };
+		43B4C21023BDFD570060518C /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		43B4C21123BDFD570060518C /* Montserrat-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		43B4C21223BDFD570060518C /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
+		43B4C21323BDFD570060518C /* MontserratAlternates-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraLight.otf"; sourceTree = "<group>"; };
+		43B4C21423BDFD570060518C /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
+		43B4C21523BDFD570060518C /* MontserratAlternates-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ThinItalic.otf"; sourceTree = "<group>"; };
+		43B4C21623BDFD570060518C /* MontserratAlternates-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		43B4C21723BDFD570060518C /* MontserratAlternates-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Italic.otf"; sourceTree = "<group>"; };
+		43B4C21823BDFD570060518C /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		43B4C21923BDFD570060518C /* client_506099714873-3r27hlcv5kuijhn9penqfkoik73438rp.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_506099714873-3r27hlcv5kuijhn9penqfkoik73438rp.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		43B4C21B23BDFD570060518C /* timeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = timeViewController.swift; sourceTree = "<group>"; };
+		43B4C21D23BDFD580060518C /* rateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rateViewController.swift; sourceTree = "<group>"; };
+		43B4C21E23BDFD580060518C /* GeometryHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeometryHelper.swift; sourceTree = "<group>"; };
+		43B4C22023BDFD580060518C /* CustomSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		43B4C22123BDFD580060518C /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		43B4C22223BDFD580060518C /* ShakeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakeView.swift; sourceTree = "<group>"; };
+		43B4C22323BDFD580060518C /* EyeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeView.swift; sourceTree = "<group>"; };
+		43B4C22423BDFD580060518C /* ProgressableAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressableAnimationView.swift; sourceTree = "<group>"; };
+		43B4C22523BDFD580060518C /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		43B4C22623BDFD580060518C /* MouthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouthView.swift; sourceTree = "<group>"; };
+		43B4C22723BDFD580060518C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43B4C22923BDFD580060518C /* listViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listViewController.swift; sourceTree = "<group>"; };
+		43B4C22A23BDFD580060518C /* firstpageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstpageViewController.swift; sourceTree = "<group>"; };
+		43B4C39423BE2DE60060518C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		43B4C39623BE2EA80060518C /* GQTPointQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQTPointQuadTree.m; sourceTree = "<group>"; };
+		43B4C39723BE2EA80060518C /* GQTPointQuadTreeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTPointQuadTreeItem.h; sourceTree = "<group>"; };
+		43B4C39823BE2EA80060518C /* GQTPointQuadTreeChild.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQTPointQuadTreeChild.m; sourceTree = "<group>"; };
+		43B4C39923BE2EA80060518C /* GQTPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTPoint.h; sourceTree = "<group>"; };
+		43B4C39A23BE2EA80060518C /* GQTPointQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTPointQuadTree.h; sourceTree = "<group>"; };
+		43B4C39B23BE2EA80060518C /* GQTPointQuadTreeChild.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTPointQuadTreeChild.h; sourceTree = "<group>"; };
+		43B4C39C23BE2EA80060518C /* GQTBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQTBounds.h; sourceTree = "<group>"; };
+		43B4C39E23BE2EA80060518C /* GMUGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGradient.h; sourceTree = "<group>"; };
+		43B4C39F23BE2EA80060518C /* GMUWeightedLatLng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUWeightedLatLng.m; sourceTree = "<group>"; };
+		43B4C3A023BE2EA80060518C /* GMUHeatmapTileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUHeatmapTileLayer.h; sourceTree = "<group>"; };
+		43B4C3A123BE2EA80060518C /* GMUWeightedLatLng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUWeightedLatLng.h; sourceTree = "<group>"; };
+		43B4C3A223BE2EA80060518C /* GMUGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGradient.m; sourceTree = "<group>"; };
+		43B4C3A323BE2EA80060518C /* GMUHeatmapTileLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUHeatmapTileLayer.m; sourceTree = "<group>"; };
+		43B4C3A523BE2EA80060518C /* GMUKMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUKMLParser.m; sourceTree = "<group>"; };
+		43B4C3A623BE2EA80060518C /* GMUGeometryRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGeometryRenderer.m; sourceTree = "<group>"; };
+		43B4C3A723BE2EA80060518C /* GMUGeoJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGeoJSONParser.h; sourceTree = "<group>"; };
+		43B4C3A923BE2EA80060518C /* GMUGeometryCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGeometryCollection.m; sourceTree = "<group>"; };
+		43B4C3AA23BE2EA80060518C /* GMUPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUPoint.h; sourceTree = "<group>"; };
+		43B4C3AB23BE2EA80060518C /* GMUStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUStyle.h; sourceTree = "<group>"; };
+		43B4C3AC23BE2EA80060518C /* GMUPlacemark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUPlacemark.m; sourceTree = "<group>"; };
+		43B4C3AD23BE2EA80060518C /* GMUPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUPolygon.m; sourceTree = "<group>"; };
+		43B4C3AE23BE2EA80060518C /* GMUPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUPair.h; sourceTree = "<group>"; };
+		43B4C3AF23BE2EA80060518C /* GMUGeometryContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGeometryContainer.h; sourceTree = "<group>"; };
+		43B4C3B023BE2EA80060518C /* GMUStyleMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUStyleMap.m; sourceTree = "<group>"; };
+		43B4C3B123BE2EA80060518C /* GMUFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUFeature.m; sourceTree = "<group>"; };
+		43B4C3B223BE2EA80060518C /* GMULineString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMULineString.h; sourceTree = "<group>"; };
+		43B4C3B323BE2EA80060518C /* GMUGroundOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGroundOverlay.m; sourceTree = "<group>"; };
+		43B4C3B423BE2EA80060518C /* GMUStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUStyle.m; sourceTree = "<group>"; };
+		43B4C3B523BE2EA80060518C /* GMUPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUPoint.m; sourceTree = "<group>"; };
+		43B4C3B623BE2EA80060518C /* GMUGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGeometry.h; sourceTree = "<group>"; };
+		43B4C3B723BE2EA80060518C /* GMUGeometryCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGeometryCollection.h; sourceTree = "<group>"; };
+		43B4C3B823BE2EA80060518C /* GMUPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUPair.m; sourceTree = "<group>"; };
+		43B4C3B923BE2EA80060518C /* GMUPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUPolygon.h; sourceTree = "<group>"; };
+		43B4C3BA23BE2EA80060518C /* GMUPlacemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUPlacemark.h; sourceTree = "<group>"; };
+		43B4C3BB23BE2EA80060518C /* GMUStyleMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUStyleMap.h; sourceTree = "<group>"; };
+		43B4C3BC23BE2EA80060518C /* GMUGroundOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGroundOverlay.h; sourceTree = "<group>"; };
+		43B4C3BD23BE2EA80060518C /* GMULineString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMULineString.m; sourceTree = "<group>"; };
+		43B4C3BE23BE2EA80060518C /* GMUFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUFeature.h; sourceTree = "<group>"; };
+		43B4C3BF23BE2EA80060518C /* GMUKMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUKMLParser.h; sourceTree = "<group>"; };
+		43B4C3C023BE2EA80060518C /* GMUGeometryRenderer+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMUGeometryRenderer+Testing.h"; sourceTree = "<group>"; };
+		43B4C3C123BE2EA80060518C /* GMUGeoJSONParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGeoJSONParser.m; sourceTree = "<group>"; };
+		43B4C3C223BE2EA80060518C /* GMUGeometryRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGeometryRenderer.h; sourceTree = "<group>"; };
+		43B4C3C423BE2EA80060518C /* GMUClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUClusterManager.m; sourceTree = "<group>"; };
+		43B4C3C523BE2EA80060518C /* GMUStaticCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUStaticCluster.h; sourceTree = "<group>"; };
+		43B4C3C623BE2EA80060518C /* GMUMarkerClustering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUMarkerClustering.h; sourceTree = "<group>"; };
+		43B4C3C823BE2EA80060518C /* GMUGridBasedClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUGridBasedClusterAlgorithm.m; sourceTree = "<group>"; };
+		43B4C3C923BE2EA80060518C /* GMUClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterAlgorithm.h; sourceTree = "<group>"; };
+		43B4C3CA23BE2EA80060518C /* GMUNonHierarchicalDistanceBasedAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUNonHierarchicalDistanceBasedAlgorithm.h; sourceTree = "<group>"; };
+		43B4C3CB23BE2EA80060518C /* GMUWrappingDictionaryKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUWrappingDictionaryKey.m; sourceTree = "<group>"; };
+		43B4C3CC23BE2EA80060518C /* GMUSimpleClusterAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUSimpleClusterAlgorithm.m; sourceTree = "<group>"; };
+		43B4C3CD23BE2EA80060518C /* GMUGridBasedClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUGridBasedClusterAlgorithm.h; sourceTree = "<group>"; };
+		43B4C3CE23BE2EA80060518C /* GMUNonHierarchicalDistanceBasedAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUNonHierarchicalDistanceBasedAlgorithm.m; sourceTree = "<group>"; };
+		43B4C3CF23BE2EA80060518C /* GMUSimpleClusterAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUSimpleClusterAlgorithm.h; sourceTree = "<group>"; };
+		43B4C3D023BE2EA80060518C /* GMUWrappingDictionaryKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUWrappingDictionaryKey.h; sourceTree = "<group>"; };
+		43B4C3D123BE2EA80060518C /* GMUClusterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterManager.h; sourceTree = "<group>"; };
+		43B4C3D223BE2EA80060518C /* GMUClusterManager+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMUClusterManager+Testing.h"; sourceTree = "<group>"; };
+		43B4C3D423BE2EA80060518C /* GMUClusterIconGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterIconGenerator.h; sourceTree = "<group>"; };
+		43B4C3D523BE2EA80060518C /* GMUClusterRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterRenderer.h; sourceTree = "<group>"; };
+		43B4C3D623BE2EA80060518C /* GMUDefaultClusterRenderer+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMUDefaultClusterRenderer+Testing.h"; sourceTree = "<group>"; };
+		43B4C3D723BE2EA80060518C /* GMUDefaultClusterRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUDefaultClusterRenderer.m; sourceTree = "<group>"; };
+		43B4C3D823BE2EA80060518C /* GMUDefaultClusterIconGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUDefaultClusterIconGenerator.h; sourceTree = "<group>"; };
+		43B4C3D923BE2EA80060518C /* GMUDefaultClusterIconGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUDefaultClusterIconGenerator.m; sourceTree = "<group>"; };
+		43B4C3DA23BE2EA80060518C /* GMUDefaultClusterRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUDefaultClusterRenderer.h; sourceTree = "<group>"; };
+		43B4C3DB23BE2EA80060518C /* GMUDefaultClusterIconGenerator+Testing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GMUDefaultClusterIconGenerator+Testing.h"; sourceTree = "<group>"; };
+		43B4C3DC23BE2EA80060518C /* GMUStaticCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUStaticCluster.m; sourceTree = "<group>"; };
+		43B4C3DD23BE2EA80060518C /* GMUCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUCluster.h; sourceTree = "<group>"; };
+		43B4C3DE23BE2EA80060518C /* GMUClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterItem.h; sourceTree = "<group>"; };
+		5A8682FAD6166C438D477734 /* Pods-knockknockedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knockknockedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-knockknockedTests/Pods-knockknockedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74D592A2857FE1CA69A63D03 /* Pods-knockknocked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knockknocked.release.xcconfig"; path = "Pods/Target Support Files/Pods-knockknocked/Pods-knockknocked.release.xcconfig"; sourceTree = "<group>"; };
+		94C4AA9857BB9DBDA6C4803A /* Pods-knockknockedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knockknockedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-knockknockedUITests/Pods-knockknockedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F59914C47FE6B2EF06B078D /* Pods-knockknockedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knockknockedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-knockknockedUITests/Pods-knockknockedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5906D2C9AF7A6E70DB771DF /* Pods_knockknocked.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knockknocked.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +274,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35DAD54B111D0A89CB90D59C /* Pods_knockknocked.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +282,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BB49FAACE46792F2EE0743 /* Pods_knockknockedTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +290,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D1765C545675E610D60D61 /* Pods_knockknockedUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B29CA04CFE8B357C5187F83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BD78EF012BF264C4656C32D /* Pods-knockknocked.debug.xcconfig */,
+				74D592A2857FE1CA69A63D03 /* Pods-knockknocked.release.xcconfig */,
+				5A8682FAD6166C438D477734 /* Pods-knockknockedTests.debug.xcconfig */,
+				127ABB5B36FD2CA1B48B566D /* Pods-knockknockedTests.release.xcconfig */,
+				9F59914C47FE6B2EF06B078D /* Pods-knockknockedUITests.debug.xcconfig */,
+				94C4AA9857BB9DBDA6C4803A /* Pods-knockknockedUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		43B4C1AA23BDFCFA0060518C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +317,8 @@
 				43B4C1CF23BDFCFC0060518C /* knockknockedTests */,
 				43B4C1DA23BDFCFC0060518C /* knockknockedUITests */,
 				43B4C1B423BDFCFA0060518C /* Products */,
+				1B29CA04CFE8B357C5187F83 /* Pods */,
+				95CB9A9E08E310EE0FAD4A05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +335,23 @@
 		43B4C1B523BDFCFA0060518C /* knockknocked */ = {
 			isa = PBXGroup;
 			children = (
+				43B4C32F23BE2D2A0060518C /* Google-Maps-iOS-Utils */,
+				43B4C21A23BDFD570060518C /* book */,
+				43B4C22823BDFD580060518C /* first page */,
+				43B4C1F323BDFD570060518C /* font */,
+				43B4C1F023BDFD570060518C /* lib */,
+				43B4C1EE23BDFD570060518C /* New Group */,
+				43B4C21C23BDFD580060518C /* rate */,
 				43B4C1B623BDFCFA0060518C /* AppDelegate.swift */,
 				43B4C1B823BDFCFA0060518C /* SceneDelegate.swift */,
 				43B4C1BA23BDFCFA0060518C /* ViewController.swift */,
-				43B4C1BC23BDFCFA0060518C /* Main.storyboard */,
-				43B4C1C223BDFCFC0060518C /* Assets.xcassets */,
+				43B4C1E923BDFD240060518C /* Main.storyboard */,
+				43B4C1EB23BDFD330060518C /* Assets.xcassets */,
 				43B4C1C423BDFCFC0060518C /* LaunchScreen.storyboard */,
 				43B4C1C723BDFCFC0060518C /* Info.plist */,
+				43B4C21923BDFD570060518C /* client_506099714873-3r27hlcv5kuijhn9penqfkoik73438rp.apps.googleusercontent.com.plist */,
+				43B4C22723BDFD580060518C /* GoogleService-Info.plist */,
+				43B4C1ED23BDFD570060518C /* map_style.json */,
 				43B4C1BF23BDFCFA0060518C /* knockknocked.xcdatamodeld */,
 			);
 			path = knockknocked;
@@ -131,6 +375,253 @@
 			path = knockknockedUITests;
 			sourceTree = "<group>";
 		};
+		43B4C1EE23BDFD570060518C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C1EF23BDFD570060518C /* detailViewController.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		43B4C1F023BDFD570060518C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C1F123BDFD570060518C /* CB3DSelectCell.swift */,
+				43B4C1F223BDFD570060518C /* CustomTransition.swift */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		43B4C1F323BDFD570060518C /* font */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C1F423BDFD570060518C /* Montserrat-MediumItalic.otf */,
+				43B4C1F523BDFD570060518C /* SIL Open Font License.txt */,
+				43B4C1F623BDFD570060518C /* MontserratAlternates-Black.otf */,
+				43B4C1F723BDFD570060518C /* MontserratAlternates-LightItalic.otf */,
+				43B4C1F823BDFD570060518C /* MontserratAlternates-Medium.otf */,
+				43B4C1F923BDFD570060518C /* Montserrat-BoldItalic.otf */,
+				43B4C1FA23BDFD570060518C /* Montserrat-Light.otf */,
+				43B4C1FB23BDFD570060518C /* Montserrat-ThinItalic.otf */,
+				43B4C1FC23BDFD570060518C /* Montserrat-Thin.otf */,
+				43B4C1FD23BDFD570060518C /* MontserratAlternates-MediumItalic.otf */,
+				43B4C1FE23BDFD570060518C /* Montserrat-ExtraLight.otf */,
+				43B4C1FF23BDFD570060518C /* MontserratAlternates-BlackItalic.otf */,
+				43B4C20023BDFD570060518C /* MontserratAlternates-Bold.otf */,
+				43B4C20123BDFD570060518C /* MontserratAlternates-ExtraLightItalic.otf */,
+				43B4C20223BDFD570060518C /* Montserrat-Bold.ttf */,
+				43B4C20323BDFD570060518C /* MontserratAlternates-Thin.otf */,
+				43B4C20423BDFD570060518C /* Montserrat-BlackItalic.ttf */,
+				43B4C20523BDFD570060518C /* Montserrat-LightItalic.otf */,
+				43B4C20623BDFD570060518C /* Montserrat-Medium.otf */,
+				43B4C20723BDFD570060518C /* MontserratAlternates-SemiBoldItalic.otf */,
+				43B4C20823BDFD570060518C /* Montserrat-SemiBoldItalic.otf */,
+				43B4C20923BDFD570060518C /* Montserrat-ExtraBoldItalic.otf */,
+				43B4C20A23BDFD570060518C /* Montserrat-Italic.otf */,
+				43B4C20B23BDFD570060518C /* MontserratAlternates-SemiBold.otf */,
+				43B4C20C23BDFD570060518C /* Montserrat-Regular.otf */,
+				43B4C20D23BDFD570060518C /* MontserratAlternates-ExtraBold.otf */,
+				43B4C20E23BDFD570060518C /* Montserrat-Black.ttf */,
+				43B4C20F23BDFD570060518C /* MontserratAlternates-BoldItalic.otf */,
+				43B4C21023BDFD570060518C /* Montserrat-ExtraBold.otf */,
+				43B4C21123BDFD570060518C /* Montserrat-ExtraLightItalic.otf */,
+				43B4C21223BDFD570060518C /* MontserratAlternates-Light.otf */,
+				43B4C21323BDFD570060518C /* MontserratAlternates-ExtraLight.otf */,
+				43B4C21423BDFD570060518C /* MontserratAlternates-Regular.otf */,
+				43B4C21523BDFD570060518C /* MontserratAlternates-ThinItalic.otf */,
+				43B4C21623BDFD570060518C /* MontserratAlternates-ExtraBoldItalic.otf */,
+				43B4C21723BDFD570060518C /* MontserratAlternates-Italic.otf */,
+				43B4C21823BDFD570060518C /* Montserrat-SemiBold.otf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		43B4C21A23BDFD570060518C /* book */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C21B23BDFD570060518C /* timeViewController.swift */,
+			);
+			path = book;
+			sourceTree = "<group>";
+		};
+		43B4C21C23BDFD580060518C /* rate */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C21D23BDFD580060518C /* rateViewController.swift */,
+				43B4C21E23BDFD580060518C /* GeometryHelper.swift */,
+				43B4C21F23BDFD580060518C /* Views */,
+			);
+			path = rate;
+			sourceTree = "<group>";
+		};
+		43B4C21F23BDFD580060518C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C22023BDFD580060518C /* CustomSlider.swift */,
+				43B4C22123BDFD580060518C /* TitleView.swift */,
+				43B4C22223BDFD580060518C /* ShakeView.swift */,
+				43B4C22323BDFD580060518C /* EyeView.swift */,
+				43B4C22423BDFD580060518C /* ProgressableAnimationView.swift */,
+				43B4C22523BDFD580060518C /* BackgroundView.swift */,
+				43B4C22623BDFD580060518C /* MouthView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		43B4C22823BDFD580060518C /* first page */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C22923BDFD580060518C /* listViewController.swift */,
+				43B4C22A23BDFD580060518C /* firstpageViewController.swift */,
+			);
+			path = "first page";
+			sourceTree = "<group>";
+		};
+		43B4C32F23BE2D2A0060518C /* Google-Maps-iOS-Utils */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C3C323BE2EA80060518C /* Clustering */,
+				43B4C3A423BE2EA80060518C /* Geometry */,
+				43B4C39D23BE2EA80060518C /* Heatmap */,
+				43B4C39523BE2EA80060518C /* QuadTree */,
+				43B4C39423BE2DE60060518C /* Header.h */,
+			);
+			path = "Google-Maps-iOS-Utils";
+			sourceTree = "<group>";
+		};
+		43B4C39523BE2EA80060518C /* QuadTree */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C39623BE2EA80060518C /* GQTPointQuadTree.m */,
+				43B4C39723BE2EA80060518C /* GQTPointQuadTreeItem.h */,
+				43B4C39823BE2EA80060518C /* GQTPointQuadTreeChild.m */,
+				43B4C39923BE2EA80060518C /* GQTPoint.h */,
+				43B4C39A23BE2EA80060518C /* GQTPointQuadTree.h */,
+				43B4C39B23BE2EA80060518C /* GQTPointQuadTreeChild.h */,
+				43B4C39C23BE2EA80060518C /* GQTBounds.h */,
+			);
+			name = QuadTree;
+			path = "../../../../Downloads/google-maps-ios-utils-master-6/src/QuadTree";
+			sourceTree = "<group>";
+		};
+		43B4C39D23BE2EA80060518C /* Heatmap */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C39E23BE2EA80060518C /* GMUGradient.h */,
+				43B4C39F23BE2EA80060518C /* GMUWeightedLatLng.m */,
+				43B4C3A023BE2EA80060518C /* GMUHeatmapTileLayer.h */,
+				43B4C3A123BE2EA80060518C /* GMUWeightedLatLng.h */,
+				43B4C3A223BE2EA80060518C /* GMUGradient.m */,
+				43B4C3A323BE2EA80060518C /* GMUHeatmapTileLayer.m */,
+			);
+			name = Heatmap;
+			path = "../../../../Downloads/google-maps-ios-utils-master-6/src/Heatmap";
+			sourceTree = "<group>";
+		};
+		43B4C3A423BE2EA80060518C /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C3A523BE2EA80060518C /* GMUKMLParser.m */,
+				43B4C3A623BE2EA80060518C /* GMUGeometryRenderer.m */,
+				43B4C3A723BE2EA80060518C /* GMUGeoJSONParser.h */,
+				43B4C3A823BE2EA80060518C /* Model */,
+				43B4C3BF23BE2EA80060518C /* GMUKMLParser.h */,
+				43B4C3C023BE2EA80060518C /* GMUGeometryRenderer+Testing.h */,
+				43B4C3C123BE2EA80060518C /* GMUGeoJSONParser.m */,
+				43B4C3C223BE2EA80060518C /* GMUGeometryRenderer.h */,
+			);
+			name = Geometry;
+			path = "../../../../Downloads/google-maps-ios-utils-master-6/src/Geometry";
+			sourceTree = "<group>";
+		};
+		43B4C3A823BE2EA80060518C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C3A923BE2EA80060518C /* GMUGeometryCollection.m */,
+				43B4C3AA23BE2EA80060518C /* GMUPoint.h */,
+				43B4C3AB23BE2EA80060518C /* GMUStyle.h */,
+				43B4C3AC23BE2EA80060518C /* GMUPlacemark.m */,
+				43B4C3AD23BE2EA80060518C /* GMUPolygon.m */,
+				43B4C3AE23BE2EA80060518C /* GMUPair.h */,
+				43B4C3AF23BE2EA80060518C /* GMUGeometryContainer.h */,
+				43B4C3B023BE2EA80060518C /* GMUStyleMap.m */,
+				43B4C3B123BE2EA80060518C /* GMUFeature.m */,
+				43B4C3B223BE2EA80060518C /* GMULineString.h */,
+				43B4C3B323BE2EA80060518C /* GMUGroundOverlay.m */,
+				43B4C3B423BE2EA80060518C /* GMUStyle.m */,
+				43B4C3B523BE2EA80060518C /* GMUPoint.m */,
+				43B4C3B623BE2EA80060518C /* GMUGeometry.h */,
+				43B4C3B723BE2EA80060518C /* GMUGeometryCollection.h */,
+				43B4C3B823BE2EA80060518C /* GMUPair.m */,
+				43B4C3B923BE2EA80060518C /* GMUPolygon.h */,
+				43B4C3BA23BE2EA80060518C /* GMUPlacemark.h */,
+				43B4C3BB23BE2EA80060518C /* GMUStyleMap.h */,
+				43B4C3BC23BE2EA80060518C /* GMUGroundOverlay.h */,
+				43B4C3BD23BE2EA80060518C /* GMULineString.m */,
+				43B4C3BE23BE2EA80060518C /* GMUFeature.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		43B4C3C323BE2EA80060518C /* Clustering */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C3C423BE2EA80060518C /* GMUClusterManager.m */,
+				43B4C3C523BE2EA80060518C /* GMUStaticCluster.h */,
+				43B4C3C623BE2EA80060518C /* GMUMarkerClustering.h */,
+				43B4C3C723BE2EA80060518C /* Algo */,
+				43B4C3D123BE2EA80060518C /* GMUClusterManager.h */,
+				43B4C3D223BE2EA80060518C /* GMUClusterManager+Testing.h */,
+				43B4C3D323BE2EA80060518C /* View */,
+				43B4C3DC23BE2EA80060518C /* GMUStaticCluster.m */,
+				43B4C3DD23BE2EA80060518C /* GMUCluster.h */,
+				43B4C3DE23BE2EA80060518C /* GMUClusterItem.h */,
+			);
+			name = Clustering;
+			path = "../../../../Downloads/google-maps-ios-utils-master-6/src/Clustering";
+			sourceTree = "<group>";
+		};
+		43B4C3C723BE2EA80060518C /* Algo */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C3C823BE2EA80060518C /* GMUGridBasedClusterAlgorithm.m */,
+				43B4C3C923BE2EA80060518C /* GMUClusterAlgorithm.h */,
+				43B4C3CA23BE2EA80060518C /* GMUNonHierarchicalDistanceBasedAlgorithm.h */,
+				43B4C3CB23BE2EA80060518C /* GMUWrappingDictionaryKey.m */,
+				43B4C3CC23BE2EA80060518C /* GMUSimpleClusterAlgorithm.m */,
+				43B4C3CD23BE2EA80060518C /* GMUGridBasedClusterAlgorithm.h */,
+				43B4C3CE23BE2EA80060518C /* GMUNonHierarchicalDistanceBasedAlgorithm.m */,
+				43B4C3CF23BE2EA80060518C /* GMUSimpleClusterAlgorithm.h */,
+				43B4C3D023BE2EA80060518C /* GMUWrappingDictionaryKey.h */,
+			);
+			path = Algo;
+			sourceTree = "<group>";
+		};
+		43B4C3D323BE2EA80060518C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				43B4C3D423BE2EA80060518C /* GMUClusterIconGenerator.h */,
+				43B4C3D523BE2EA80060518C /* GMUClusterRenderer.h */,
+				43B4C3D623BE2EA80060518C /* GMUDefaultClusterRenderer+Testing.h */,
+				43B4C3D723BE2EA80060518C /* GMUDefaultClusterRenderer.m */,
+				43B4C3D823BE2EA80060518C /* GMUDefaultClusterIconGenerator.h */,
+				43B4C3D923BE2EA80060518C /* GMUDefaultClusterIconGenerator.m */,
+				43B4C3DA23BE2EA80060518C /* GMUDefaultClusterRenderer.h */,
+				43B4C3DB23BE2EA80060518C /* GMUDefaultClusterIconGenerator+Testing.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95CB9A9E08E310EE0FAD4A05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5906D2C9AF7A6E70DB771DF /* Pods_knockknocked.framework */,
+				34DB4CAF6BFE135C1C7ED23B /* Pods_knockknockedTests.framework */,
+				16E8ADE91BE7A3C66BCF939E /* Pods_knockknockedUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +629,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43B4C1E023BDFCFD0060518C /* Build configuration list for PBXNativeTarget "knockknocked" */;
 			buildPhases = (
+				5D7F0DEA0D1FA948E8F8A615 /* [CP] Check Pods Manifest.lock */,
 				43B4C1AF23BDFCFA0060518C /* Sources */,
 				43B4C1B023BDFCFA0060518C /* Frameworks */,
 				43B4C1B123BDFCFA0060518C /* Resources */,
+				AC27D370028B9E9EE236FC4F /* [CP] Copy Pods Resources */,
+				C9335E46DB8A263E8E691582 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +649,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43B4C1E323BDFCFD0060518C /* Build configuration list for PBXNativeTarget "knockknockedTests" */;
 			buildPhases = (
+				87E98C1E0B6D5BB950257BDB /* [CP] Check Pods Manifest.lock */,
 				43B4C1C823BDFCFC0060518C /* Sources */,
 				43B4C1C923BDFCFC0060518C /* Frameworks */,
 				43B4C1CA23BDFCFC0060518C /* Resources */,
@@ -173,6 +668,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43B4C1E623BDFCFD0060518C /* Build configuration list for PBXNativeTarget "knockknockedUITests" */;
 			buildPhases = (
+				5D2AAE9876EF491B79695F68 /* [CP] Check Pods Manifest.lock */,
 				43B4C1D323BDFCFC0060518C /* Sources */,
 				43B4C1D423BDFCFC0060518C /* Frameworks */,
 				43B4C1D523BDFCFC0060518C /* Resources */,
@@ -235,9 +731,49 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B4C24A23BDFD580060518C /* MontserratAlternates-BoldItalic.otf in Resources */,
+				43B4C23523BDFD580060518C /* Montserrat-Light.otf in Resources */,
+				43B4C24F23BDFD580060518C /* MontserratAlternates-Regular.otf in Resources */,
+				43B4C25223BDFD580060518C /* MontserratAlternates-Italic.otf in Resources */,
+				43B4C23223BDFD580060518C /* MontserratAlternates-LightItalic.otf in Resources */,
+				43B4C23323BDFD580060518C /* MontserratAlternates-Medium.otf in Resources */,
+				43B4C24023BDFD580060518C /* Montserrat-LightItalic.otf in Resources */,
+				43B4C25023BDFD580060518C /* MontserratAlternates-ThinItalic.otf in Resources */,
+				43B4C24E23BDFD580060518C /* MontserratAlternates-ExtraLight.otf in Resources */,
+				43B4C23C23BDFD580060518C /* MontserratAlternates-ExtraLightItalic.otf in Resources */,
+				43B4C25F23BDFD580060518C /* GoogleService-Info.plist in Resources */,
+				43B4C22F23BDFD580060518C /* Montserrat-MediumItalic.otf in Resources */,
+				43B4C23923BDFD580060518C /* Montserrat-ExtraLight.otf in Resources */,
+				43B4C24D23BDFD580060518C /* MontserratAlternates-Light.otf in Resources */,
+				43B4C23823BDFD580060518C /* MontserratAlternates-MediumItalic.otf in Resources */,
+				43B4C24723BDFD580060518C /* Montserrat-Regular.otf in Resources */,
+				43B4C23423BDFD580060518C /* Montserrat-BoldItalic.otf in Resources */,
+				43B4C25423BDFD580060518C /* client_506099714873-3r27hlcv5kuijhn9penqfkoik73438rp.apps.googleusercontent.com.plist in Resources */,
+				43B4C23623BDFD580060518C /* Montserrat-ThinItalic.otf in Resources */,
+				43B4C24B23BDFD580060518C /* Montserrat-ExtraBold.otf in Resources */,
+				43B4C24223BDFD580060518C /* MontserratAlternates-SemiBoldItalic.otf in Resources */,
+				43B4C22B23BDFD580060518C /* map_style.json in Resources */,
+				43B4C24423BDFD580060518C /* Montserrat-ExtraBoldItalic.otf in Resources */,
+				43B4C23723BDFD580060518C /* Montserrat-Thin.otf in Resources */,
+				43B4C1EA23BDFD240060518C /* Main.storyboard in Resources */,
+				43B4C24C23BDFD580060518C /* Montserrat-ExtraLightItalic.otf in Resources */,
+				43B4C24923BDFD580060518C /* Montserrat-Black.ttf in Resources */,
+				43B4C24523BDFD580060518C /* Montserrat-Italic.otf in Resources */,
+				43B4C23123BDFD580060518C /* MontserratAlternates-Black.otf in Resources */,
+				43B4C23D23BDFD580060518C /* Montserrat-Bold.ttf in Resources */,
+				43B4C24823BDFD580060518C /* MontserratAlternates-ExtraBold.otf in Resources */,
+				43B4C23E23BDFD580060518C /* MontserratAlternates-Thin.otf in Resources */,
+				43B4C24123BDFD580060518C /* Montserrat-Medium.otf in Resources */,
+				43B4C23F23BDFD580060518C /* Montserrat-BlackItalic.ttf in Resources */,
+				43B4C23023BDFD580060518C /* SIL Open Font License.txt in Resources */,
+				43B4C24623BDFD580060518C /* MontserratAlternates-SemiBold.otf in Resources */,
+				43B4C23A23BDFD580060518C /* MontserratAlternates-BlackItalic.otf in Resources */,
+				43B4C25123BDFD580060518C /* MontserratAlternates-ExtraBoldItalic.otf in Resources */,
+				43B4C23B23BDFD580060518C /* MontserratAlternates-Bold.otf in Resources */,
+				43B4C1EC23BDFD330060518C /* Assets.xcassets in Resources */,
+				43B4C24323BDFD580060518C /* Montserrat-SemiBoldItalic.otf in Resources */,
 				43B4C1C623BDFCFC0060518C /* LaunchScreen.storyboard in Resources */,
-				43B4C1C323BDFCFC0060518C /* Assets.xcassets in Resources */,
-				43B4C1BE23BDFCFA0060518C /* Main.storyboard in Resources */,
+				43B4C25323BDFD580060518C /* Montserrat-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +793,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D2AAE9876EF491B79695F68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-knockknockedUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D7F0DEA0D1FA948E8F8A615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-knockknocked-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87E98C1E0B6D5BB950257BDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-knockknockedTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC27D370028B9E9EE236FC4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-knockknocked/Pods-knockknocked-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-knockknocked/Pods-knockknocked-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9335E46DB8A263E8E691582 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-knockknocked/Pods-knockknocked-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/PickerView/PickerView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenuSwift/SideMenuSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/VACalendar/VACalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PickerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenuSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VACalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-knockknocked/Pods-knockknocked-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43B4C1AF23BDFCFA0060518C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B4C3E923BE2EA80060518C /* GMUStyleMap.m in Sources */,
+				43B4C25B23BDFD580060518C /* EyeView.swift in Sources */,
+				43B4C3EF23BE2EA90060518C /* GMULineString.m in Sources */,
+				43B4C3F423BE2EA90060518C /* GMUSimpleClusterAlgorithm.m in Sources */,
+				43B4C3F623BE2EA90060518C /* GMUDefaultClusterRenderer.m in Sources */,
 				43B4C1BB23BDFCFA0060518C /* ViewController.swift in Sources */,
+				43B4C25523BDFD580060518C /* timeViewController.swift in Sources */,
+				43B4C3F023BE2EA90060518C /* GMUGeoJSONParser.m in Sources */,
+				43B4C25823BDFD580060518C /* CustomSlider.swift in Sources */,
+				43B4C25C23BDFD580060518C /* ProgressableAnimationView.swift in Sources */,
+				43B4C3EA23BE2EA80060518C /* GMUFeature.m in Sources */,
+				43B4C3EB23BE2EA90060518C /* GMUGroundOverlay.m in Sources */,
+				43B4C22E23BDFD580060518C /* CustomTransition.swift in Sources */,
+				43B4C3F823BE2EA90060518C /* GMUStaticCluster.m in Sources */,
+				43B4C3E723BE2EA80060518C /* GMUPlacemark.m in Sources */,
+				43B4C3EE23BE2EA90060518C /* GMUPair.m in Sources */,
+				43B4C3F323BE2EA90060518C /* GMUWrappingDictionaryKey.m in Sources */,
 				43B4C1B723BDFCFA0060518C /* AppDelegate.swift in Sources */,
+				43B4C3EC23BE2EA90060518C /* GMUStyle.m in Sources */,
 				43B4C1C123BDFCFA0060518C /* knockknocked.xcdatamodeld in Sources */,
+				43B4C25723BDFD580060518C /* GeometryHelper.swift in Sources */,
+				43B4C3E423BE2EA80060518C /* GMUKMLParser.m in Sources */,
+				43B4C25623BDFD580060518C /* rateViewController.swift in Sources */,
+				43B4C3DF23BE2EA80060518C /* GQTPointQuadTree.m in Sources */,
+				43B4C3E023BE2EA80060518C /* GQTPointQuadTreeChild.m in Sources */,
+				43B4C26023BDFD580060518C /* listViewController.swift in Sources */,
+				43B4C3E523BE2EA80060518C /* GMUGeometryRenderer.m in Sources */,
+				43B4C3ED23BE2EA90060518C /* GMUPoint.m in Sources */,
+				43B4C3F123BE2EA90060518C /* GMUClusterManager.m in Sources */,
+				43B4C3F523BE2EA90060518C /* GMUNonHierarchicalDistanceBasedAlgorithm.m in Sources */,
+				43B4C3E223BE2EA80060518C /* GMUGradient.m in Sources */,
+				43B4C25D23BDFD580060518C /* BackgroundView.swift in Sources */,
+				43B4C22C23BDFD580060518C /* detailViewController.swift in Sources */,
 				43B4C1B923BDFCFA0060518C /* SceneDelegate.swift in Sources */,
+				43B4C26123BDFD580060518C /* firstpageViewController.swift in Sources */,
+				43B4C3E623BE2EA80060518C /* GMUGeometryCollection.m in Sources */,
+				43B4C22D23BDFD580060518C /* CB3DSelectCell.swift in Sources */,
+				43B4C25E23BDFD580060518C /* MouthView.swift in Sources */,
+				43B4C3E323BE2EA80060518C /* GMUHeatmapTileLayer.m in Sources */,
+				43B4C25A23BDFD580060518C /* ShakeView.swift in Sources */,
+				43B4C3E123BE2EA80060518C /* GMUWeightedLatLng.m in Sources */,
+				43B4C3E823BE2EA80060518C /* GMUPolygon.m in Sources */,
+				43B4C3F223BE2EA90060518C /* GMUGridBasedClusterAlgorithm.m in Sources */,
+				43B4C3F723BE2EA90060518C /* GMUDefaultClusterIconGenerator.m in Sources */,
+				43B4C25923BDFD580060518C /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +993,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		43B4C1BC23BDFCFA0060518C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				43B4C1BD23BDFCFA0060518C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		43B4C1C423BDFCFC0060518C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +1120,7 @@
 		};
 		43B4C1E123BDFCFD0060518C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD78EF012BF264C4656C32D /* Pods-knockknocked.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,8 +1130,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pedram.knockknocked;
+				PRODUCT_BUNDLE_IDENTIFIER = "pedram.knock-knocked";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +1140,7 @@
 		};
 		43B4C1E223BDFCFD0060518C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D592A2857FE1CA69A63D03 /* Pods-knockknocked.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,8 +1150,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pedram.knockknocked;
+				PRODUCT_BUNDLE_IDENTIFIER = "pedram.knock-knocked";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,6 +1160,7 @@
 		};
 		43B4C1E423BDFCFD0060518C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8682FAD6166C438D477734 /* Pods-knockknockedTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +1183,7 @@
 		};
 		43B4C1E523BDFCFD0060518C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127ABB5B36FD2CA1B48B566D /* Pods-knockknockedTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +1206,7 @@
 		};
 		43B4C1E723BDFCFD0060518C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F59914C47FE6B2EF06B078D /* Pods-knockknockedUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +1227,7 @@
 		};
 		43B4C1E823BDFCFD0060518C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C4AA9857BB9DBDA6C4803A /* Pods-knockknockedUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

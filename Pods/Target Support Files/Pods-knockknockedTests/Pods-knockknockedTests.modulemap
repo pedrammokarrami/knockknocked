@@ -1,0 +1,6 @@
+framework module Pods_knockknockedTests {
+  umbrella header "Pods-knockknockedTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
