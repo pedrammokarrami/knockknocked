@@ -30,7 +30,7 @@ public struct VAWeekDaysViewAppearance {
         weekDayTextFont: UIFont = UIFont.systemFont(ofSize: 15),
         leftInset: CGFloat = 10.0,
         rightInset: CGFloat = 10.0,
-        separatorBackgroundColor: UIColor = .lightGray,
+        separatorBackgroundColor: UIColor = .clear,
         calendar: Calendar = Calendar.current) {
         self.symbolsType = symbolsType
         self.weekDayTextColor = weekDayTextColor

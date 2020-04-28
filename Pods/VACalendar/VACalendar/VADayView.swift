@@ -75,6 +75,7 @@ class VADayView: UIView {
         dateLabel.font = dayViewAppearanceDelegate?.font?(for: day.state) ?? dateLabel.font
         dateLabel.text = VAFormatters.dayFormatter.string(from: day.date)
         dateLabel.textAlignment = .center
+        
         dateLabel.frame = CGRect(
             x: 0,
             y: 0,

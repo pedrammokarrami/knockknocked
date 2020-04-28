@@ -34,7 +34,7 @@ protocol RateAnimation {
     func value(for state: Rate, viewSize: CGSize) -> Any
 }
 
-class AnimationView: UIView {
+class AnimationViewrate: UIView {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -51,7 +51,7 @@ class AnimationView: UIView {
     }
 }
 
-class ProgressableAnimationView: AnimationView {
+class ProgressableAnimationView: AnimationViewrate {
 
     override init(frame: CGRect) {
         super.init(frame: frame)

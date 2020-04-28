@@ -17,6 +17,22 @@ pod 'Firebase/Analytics'
 pod 'GoogleMaps'
 pod 'VACalendar'
 pod 'SideMenuSwift'
+pod 'TableFlip'
+pod 'TextFieldEffects'
+pod 'DropDown'
+pod 'CountdownLabel'
+pod 'Starscream'
+pod 'MessengerKit', :git => 'https://github.com/steve228uk/MessengerKit.git'
+pod 'SwiftGifOrigin'
+pod 'lottie-ios'
+pod 'Presentr'
+pod 'FirebaseInstanceID'
+pod 'FirebaseAuth'
+pod 'Firebase'
+pod 'FirebaseCore'
+pod 'FirebaseMessaging'
+
+
 #pod 'Google-Maps-iOS-Utils'
 
   target 'knockknockedTests' do

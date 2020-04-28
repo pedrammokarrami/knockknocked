@@ -8,6 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		35DAD54B111D0A89CB90D59C /* Pods_knockknocked.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5906D2C9AF7A6E70DB771DF /* Pods_knockknocked.framework */; };
+		4310824523F41A8F00EB50F5 /* tik.json in Resources */ = {isa = PBXBuildFile; fileRef = 4310824423F41A8F00EB50F5 /* tik.json */; };
+		4310824A23F87E8400EB50F5 /* like.json in Resources */ = {isa = PBXBuildFile; fileRef = 4310824923F87E8400EB50F5 /* like.json */; };
+		4310824C23F87FFC00EB50F5 /* writereviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4310824B23F87FFC00EB50F5 /* writereviewViewController.swift */; };
+		4310824E23F95F1800EB50F5 /* splashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4310824D23F95F1800EB50F5 /* splashViewController.swift */; };
+		4332099423F40A990084C4FA /* LottieHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4332099323F40A990084C4FA /* LottieHUD.swift */; };
+		4332099623F40BF50084C4FA /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 4332099523F40BF50084C4FA /* loading.json */; };
+		4357EE7B23E70F5A00FB97F2 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357EE7A23E70F5A00FB97F2 /* Emoji.swift */; };
+		4357EE7D23E70F6000FB97F2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357EE7C23E70F6000FB97F2 /* User.swift */; };
+		4357EE7F23E7109F00FB97F2 /* chatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357EE7E23E7109F00FB97F2 /* chatting.swift */; };
+		4357EE8123E8A21B00FB97F2 /* menusideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4357EE8023E8A21B00FB97F2 /* menusideViewController.swift */; };
+		4357EE8323EB007000FB97F2 /* GROBOLD.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4357EE8223EB007000FB97F2 /* GROBOLD.otf */; };
+		4367312F23CE2A8700F028BF /* addressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367312E23CE2A8700F028BF /* addressViewController.swift */; };
+		4367313323CE3F2400F028BF /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4367313223CE3F2400F028BF /* UITableView+Extension.swift */; };
+		437B14B92402F9EA002D67B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 437B14B82402F9EA002D67B4 /* GoogleService-Info.plist */; };
+		43897A6823E099D1005D74B2 /* invitedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43897A6723E099D1005D74B2 /* invitedViewController.swift */; };
+		43897A6B23E18B9B005D74B2 /* selectchatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43897A6A23E18B9B005D74B2 /* selectchatViewController.swift */; };
+		43897A6F23E2B0EE005D74B2 /* verifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43897A6E23E2B0EE005D74B2 /* verifyViewController.swift */; };
+		43897A7C23E2E2C2005D74B2 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43897A7B23E2E2C2005D74B2 /* loginViewController.swift */; };
+		43897A8C23E5B6DD005D74B2 /* AddaddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43897A8B23E5B6DD005D74B2 /* AddaddressViewController.swift */; };
+		43897A9A23E6FFB8005D74B2 /* chattingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43897A9923E6FFB8005D74B2 /* chattingViewController.swift */; };
+		4389BF5724000B14008977E2 /* bussinestimeslotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389BF5624000B14008977E2 /* bussinestimeslotViewController.swift */; };
+		43A4261923D8C76E00CFABA7 /* filterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4261823D8C76E00CFABA7 /* filterViewController.swift */; };
+		43A4261C23DED53E00CFABA7 /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4261B23DED53E00CFABA7 /* registerViewController.swift */; };
+		43A4261E23DF81A300CFABA7 /* businessfinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4261D23DF81A300CFABA7 /* businessfinalViewController.swift */; };
+		43A4262723E087D200CFABA7 /* contactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4262623E087D200CFABA7 /* contactViewController.swift */; };
 		43B4C1B723BDFCFA0060518C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1B623BDFCFA0060518C /* AppDelegate.swift */; };
 		43B4C1B923BDFCFA0060518C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1B823BDFCFA0060518C /* SceneDelegate.swift */; };
 		43B4C1BB23BDFCFA0060518C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C1BA23BDFCFA0060518C /* ViewController.swift */; };
@@ -69,7 +94,6 @@
 		43B4C25C23BDFD580060518C /* ProgressableAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22423BDFD580060518C /* ProgressableAnimationView.swift */; };
 		43B4C25D23BDFD580060518C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22523BDFD580060518C /* BackgroundView.swift */; };
 		43B4C25E23BDFD580060518C /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22623BDFD580060518C /* MouthView.swift */; };
-		43B4C25F23BDFD580060518C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43B4C22723BDFD580060518C /* GoogleService-Info.plist */; };
 		43B4C26023BDFD580060518C /* listViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22923BDFD580060518C /* listViewController.swift */; };
 		43B4C26123BDFD580060518C /* firstpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C22A23BDFD580060518C /* firstpageViewController.swift */; };
 		43B4C3DF23BE2EA80060518C /* GQTPointQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C39623BE2EA80060518C /* GQTPointQuadTree.m */; };
@@ -98,6 +122,14 @@
 		43B4C3F623BE2EA90060518C /* GMUDefaultClusterRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3D723BE2EA80060518C /* GMUDefaultClusterRenderer.m */; };
 		43B4C3F723BE2EA90060518C /* GMUDefaultClusterIconGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3D923BE2EA80060518C /* GMUDefaultClusterIconGenerator.m */; };
 		43B4C3F823BE2EA90060518C /* GMUStaticCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3DC23BE2EA80060518C /* GMUStaticCluster.m */; };
+		43E1D5252401AE7200B40039 /* veryfiregisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E1D5242401AE7200B40039 /* veryfiregisterViewController.swift */; };
+		43E1D5272401B69400B40039 /* uploadimageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E1D5262401B69400B40039 /* uploadimageViewController.swift */; };
+		43EB8BC6241173B5006C20C1 /* CountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 43EB8BC5241173B5006C20C1 /* CountryPicker.bundle */; };
+		43EB8BC8241173BB006C20C1 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 43EB8BC7241173BB006C20C1 /* countries.json */; };
+		43EB8BCB241173CC006C20C1 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EB8BC9241173CB006C20C1 /* CountryTableViewCell.swift */; };
+		43EB8BCC241173CC006C20C1 /* SRCountryPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EB8BCA241173CC006C20C1 /* SRCountryPickerController.swift */; };
+		43FCF77F23D6544C006FE274 /* calenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FCF77E23D6544C006FE274 /* calenderViewController.swift */; };
+		43FCF78223D661EE006FE274 /* bussinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FCF78123D661EE006FE274 /* bussinesViewController.swift */; };
 		A5BB49FAACE46792F2EE0743 /* Pods_knockknockedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34DB4CAF6BFE135C1C7ED23B /* Pods_knockknockedTests.framework */; };
 		C2D1765C545675E610D60D61 /* Pods_knockknockedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E8ADE91BE7A3C66BCF939E /* Pods_knockknockedUITests.framework */; };
 /* End PBXBuildFile section */
@@ -124,6 +156,32 @@
 		16E8ADE91BE7A3C66BCF939E /* Pods_knockknockedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knockknockedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD78EF012BF264C4656C32D /* Pods-knockknocked.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knockknocked.debug.xcconfig"; path = "Pods/Target Support Files/Pods-knockknocked/Pods-knockknocked.debug.xcconfig"; sourceTree = "<group>"; };
 		34DB4CAF6BFE135C1C7ED23B /* Pods_knockknockedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knockknockedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4310824423F41A8F00EB50F5 /* tik.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tik.json; sourceTree = "<group>"; };
+		4310824923F87E8400EB50F5 /* like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = like.json; sourceTree = "<group>"; };
+		4310824B23F87FFC00EB50F5 /* writereviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writereviewViewController.swift; sourceTree = "<group>"; };
+		4310824D23F95F1800EB50F5 /* splashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashViewController.swift; sourceTree = "<group>"; };
+		4332099323F40A990084C4FA /* LottieHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LottieHUD.swift; path = "../../../../Downloads/LottieHUD-master/LottieHUD/Source/LottieHUD.swift"; sourceTree = "<group>"; };
+		4332099523F40BF50084C4FA /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		4357EE7A23E70F5A00FB97F2 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		4357EE7C23E70F6000FB97F2 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4357EE7E23E7109F00FB97F2 /* chatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatting.swift; sourceTree = "<group>"; };
+		4357EE8023E8A21B00FB97F2 /* menusideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menusideViewController.swift; sourceTree = "<group>"; };
+		4357EE8223EB007000FB97F2 /* GROBOLD.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GROBOLD.otf; sourceTree = "<group>"; };
+		4367312E23CE2A8700F028BF /* addressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addressViewController.swift; sourceTree = "<group>"; };
+		4367313223CE3F2400F028BF /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		437B14B72402F637002D67B4 /* knockknocked.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = knockknocked.entitlements; sourceTree = "<group>"; };
+		437B14B82402F9EA002D67B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		43897A6723E099D1005D74B2 /* invitedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invitedViewController.swift; sourceTree = "<group>"; };
+		43897A6A23E18B9B005D74B2 /* selectchatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectchatViewController.swift; sourceTree = "<group>"; };
+		43897A6E23E2B0EE005D74B2 /* verifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyViewController.swift; sourceTree = "<group>"; };
+		43897A7B23E2E2C2005D74B2 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		43897A8B23E5B6DD005D74B2 /* AddaddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddaddressViewController.swift; sourceTree = "<group>"; };
+		43897A9923E6FFB8005D74B2 /* chattingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chattingViewController.swift; sourceTree = "<group>"; };
+		4389BF5624000B14008977E2 /* bussinestimeslotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bussinestimeslotViewController.swift; sourceTree = "<group>"; };
+		43A4261823D8C76E00CFABA7 /* filterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filterViewController.swift; sourceTree = "<group>"; };
+		43A4261B23DED53E00CFABA7 /* registerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		43A4261D23DF81A300CFABA7 /* businessfinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = businessfinalViewController.swift; sourceTree = "<group>"; };
+		43A4262623E087D200CFABA7 /* contactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactViewController.swift; sourceTree = "<group>"; };
 		43B4C1B323BDFCFA0060518C /* knockknocked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = knockknocked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43B4C1B623BDFCFA0060518C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43B4C1B823BDFCFA0060518C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -191,7 +249,6 @@
 		43B4C22423BDFD580060518C /* ProgressableAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressableAnimationView.swift; sourceTree = "<group>"; };
 		43B4C22523BDFD580060518C /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		43B4C22623BDFD580060518C /* MouthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouthView.swift; sourceTree = "<group>"; };
-		43B4C22723BDFD580060518C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		43B4C22923BDFD580060518C /* listViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = listViewController.swift; sourceTree = "<group>"; };
 		43B4C22A23BDFD580060518C /* firstpageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = firstpageViewController.swift; sourceTree = "<group>"; };
 		43B4C39423BE2DE60060518C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
@@ -262,6 +319,14 @@
 		43B4C3DC23BE2EA80060518C /* GMUStaticCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUStaticCluster.m; sourceTree = "<group>"; };
 		43B4C3DD23BE2EA80060518C /* GMUCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUCluster.h; sourceTree = "<group>"; };
 		43B4C3DE23BE2EA80060518C /* GMUClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterItem.h; sourceTree = "<group>"; };
+		43E1D5242401AE7200B40039 /* veryfiregisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veryfiregisterViewController.swift; sourceTree = "<group>"; };
+		43E1D5262401B69400B40039 /* uploadimageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadimageViewController.swift; sourceTree = "<group>"; };
+		43EB8BC5241173B5006C20C1 /* CountryPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CountryPicker.bundle; sourceTree = "<group>"; };
+		43EB8BC7241173BB006C20C1 /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		43EB8BC9241173CB006C20C1 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		43EB8BCA241173CC006C20C1 /* SRCountryPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRCountryPickerController.swift; sourceTree = "<group>"; };
+		43FCF77E23D6544C006FE274 /* calenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calenderViewController.swift; sourceTree = "<group>"; };
+		43FCF78123D661EE006FE274 /* bussinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bussinesViewController.swift; sourceTree = "<group>"; };
 		5A8682FAD6166C438D477734 /* Pods-knockknockedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knockknockedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-knockknockedTests/Pods-knockknockedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74D592A2857FE1CA69A63D03 /* Pods-knockknocked.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knockknocked.release.xcconfig"; path = "Pods/Target Support Files/Pods-knockknocked/Pods-knockknocked.release.xcconfig"; sourceTree = "<group>"; };
 		94C4AA9857BB9DBDA6C4803A /* Pods-knockknockedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knockknockedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-knockknockedUITests/Pods-knockknockedUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -310,6 +375,65 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4332098E23F3FBAF0084C4FA /* TestAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				4310824923F87E8400EB50F5 /* like.json */,
+				4310824423F41A8F00EB50F5 /* tik.json */,
+				4332099523F40BF50084C4FA /* loading.json */,
+			);
+			path = TestAnimations;
+			sourceTree = "<group>";
+		};
+		4367312D23CE2A7200F028BF /* address */ = {
+			isa = PBXGroup;
+			children = (
+				4367312E23CE2A8700F028BF /* addressViewController.swift */,
+				43897A8B23E5B6DD005D74B2 /* AddaddressViewController.swift */,
+			);
+			path = address;
+			sourceTree = "<group>";
+		};
+		43897A6623E09840005D74B2 /* invite */ = {
+			isa = PBXGroup;
+			children = (
+				43897A6723E099D1005D74B2 /* invitedViewController.swift */,
+			);
+			path = invite;
+			sourceTree = "<group>";
+		};
+		43897A6923E18B87005D74B2 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				4357EE7C23E70F6000FB97F2 /* User.swift */,
+				4357EE7A23E70F5A00FB97F2 /* Emoji.swift */,
+				43897A6A23E18B9B005D74B2 /* selectchatViewController.swift */,
+				43897A9923E6FFB8005D74B2 /* chattingViewController.swift */,
+				4357EE7E23E7109F00FB97F2 /* chatting.swift */,
+			);
+			path = chat;
+			sourceTree = "<group>";
+		};
+		43A4261723D8C75C00CFABA7 /* filter */ = {
+			isa = PBXGroup;
+			children = (
+				43A4261823D8C76E00CFABA7 /* filterViewController.swift */,
+			);
+			path = filter;
+			sourceTree = "<group>";
+		};
+		43A4261A23DED4A800CFABA7 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				43A4261B23DED53E00CFABA7 /* registerViewController.swift */,
+				43897A6E23E2B0EE005D74B2 /* verifyViewController.swift */,
+				43897A7B23E2E2C2005D74B2 /* loginViewController.swift */,
+				43E1D5242401AE7200B40039 /* veryfiregisterViewController.swift */,
+				43E1D5262401B69400B40039 /* uploadimageViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
 		43B4C1AA23BDFCFA0060518C = {
 			isa = PBXGroup;
 			children = (
@@ -335,12 +459,22 @@
 		43B4C1B523BDFCFA0060518C /* knockknocked */ = {
 			isa = PBXGroup;
 			children = (
+				43EB8BC424117318006C20C1 /* countryist */,
+				437B14B72402F637002D67B4 /* knockknocked.entitlements */,
+				4332098E23F3FBAF0084C4FA /* TestAnimations */,
+				43897A6923E18B87005D74B2 /* chat */,
+				43897A6623E09840005D74B2 /* invite */,
+				43A4261A23DED4A800CFABA7 /* login */,
+				43A4261723D8C75C00CFABA7 /* filter */,
+				43FCF78023D661D2006FE274 /* bussines */,
+				43FCF77D23D6543A006FE274 /* calender */,
+				4367312D23CE2A7200F028BF /* address */,
 				43B4C32F23BE2D2A0060518C /* Google-Maps-iOS-Utils */,
 				43B4C21A23BDFD570060518C /* book */,
 				43B4C22823BDFD580060518C /* first page */,
 				43B4C1F323BDFD570060518C /* font */,
 				43B4C1F023BDFD570060518C /* lib */,
-				43B4C1EE23BDFD570060518C /* New Group */,
+				43B4C1EE23BDFD570060518C /* detail */,
 				43B4C21C23BDFD580060518C /* rate */,
 				43B4C1B623BDFCFA0060518C /* AppDelegate.swift */,
 				43B4C1B823BDFCFA0060518C /* SceneDelegate.swift */,
@@ -350,9 +484,10 @@
 				43B4C1C423BDFCFC0060518C /* LaunchScreen.storyboard */,
 				43B4C1C723BDFCFC0060518C /* Info.plist */,
 				43B4C21923BDFD570060518C /* client_506099714873-3r27hlcv5kuijhn9penqfkoik73438rp.apps.googleusercontent.com.plist */,
-				43B4C22723BDFD580060518C /* GoogleService-Info.plist */,
 				43B4C1ED23BDFD570060518C /* map_style.json */,
+				4367313223CE3F2400F028BF /* UITableView+Extension.swift */,
 				43B4C1BF23BDFCFA0060518C /* knockknocked.xcdatamodeld */,
+				437B14B82402F9EA002D67B4 /* GoogleService-Info.plist */,
 			);
 			path = knockknocked;
 			sourceTree = "<group>";
@@ -375,17 +510,18 @@
 			path = knockknockedUITests;
 			sourceTree = "<group>";
 		};
-		43B4C1EE23BDFD570060518C /* New Group */ = {
+		43B4C1EE23BDFD570060518C /* detail */ = {
 			isa = PBXGroup;
 			children = (
 				43B4C1EF23BDFD570060518C /* detailViewController.swift */,
 			);
-			path = "New Group";
+			path = detail;
 			sourceTree = "<group>";
 		};
 		43B4C1F023BDFD570060518C /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				4332099323F40A990084C4FA /* LottieHUD.swift */,
 				43B4C1F123BDFD570060518C /* CB3DSelectCell.swift */,
 				43B4C1F223BDFD570060518C /* CustomTransition.swift */,
 			);
@@ -412,6 +548,7 @@
 				43B4C20223BDFD570060518C /* Montserrat-Bold.ttf */,
 				43B4C20323BDFD570060518C /* MontserratAlternates-Thin.otf */,
 				43B4C20423BDFD570060518C /* Montserrat-BlackItalic.ttf */,
+				4357EE8223EB007000FB97F2 /* GROBOLD.otf */,
 				43B4C20523BDFD570060518C /* Montserrat-LightItalic.otf */,
 				43B4C20623BDFD570060518C /* Montserrat-Medium.otf */,
 				43B4C20723BDFD570060518C /* MontserratAlternates-SemiBoldItalic.otf */,
@@ -450,6 +587,7 @@
 				43B4C21D23BDFD580060518C /* rateViewController.swift */,
 				43B4C21E23BDFD580060518C /* GeometryHelper.swift */,
 				43B4C21F23BDFD580060518C /* Views */,
+				4310824B23F87FFC00EB50F5 /* writereviewViewController.swift */,
 			);
 			path = rate;
 			sourceTree = "<group>";
@@ -473,6 +611,8 @@
 			children = (
 				43B4C22923BDFD580060518C /* listViewController.swift */,
 				43B4C22A23BDFD580060518C /* firstpageViewController.swift */,
+				4357EE8023E8A21B00FB97F2 /* menusideViewController.swift */,
+				4310824D23F95F1800EB50F5 /* splashViewController.swift */,
 			);
 			path = "first page";
 			sourceTree = "<group>";
@@ -612,6 +752,36 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		43EB8BC424117318006C20C1 /* countryist */ = {
+			isa = PBXGroup;
+			children = (
+				43EB8BC9241173CB006C20C1 /* CountryTableViewCell.swift */,
+				43EB8BCA241173CC006C20C1 /* SRCountryPickerController.swift */,
+				43EB8BC7241173BB006C20C1 /* countries.json */,
+				43EB8BC5241173B5006C20C1 /* CountryPicker.bundle */,
+			);
+			path = countryist;
+			sourceTree = "<group>";
+		};
+		43FCF77D23D6543A006FE274 /* calender */ = {
+			isa = PBXGroup;
+			children = (
+				43FCF77E23D6544C006FE274 /* calenderViewController.swift */,
+			);
+			path = calender;
+			sourceTree = "<group>";
+		};
+		43FCF78023D661D2006FE274 /* bussines */ = {
+			isa = PBXGroup;
+			children = (
+				43FCF78123D661EE006FE274 /* bussinesViewController.swift */,
+				43A4261D23DF81A300CFABA7 /* businessfinalViewController.swift */,
+				43A4262623E087D200CFABA7 /* contactViewController.swift */,
+				4389BF5624000B14008977E2 /* bussinestimeslotViewController.swift */,
+			);
+			path = bussines;
+			sourceTree = "<group>";
+		};
 		95CB9A9E08E310EE0FAD4A05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -732,17 +902,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B4C24A23BDFD580060518C /* MontserratAlternates-BoldItalic.otf in Resources */,
+				437B14B92402F9EA002D67B4 /* GoogleService-Info.plist in Resources */,
 				43B4C23523BDFD580060518C /* Montserrat-Light.otf in Resources */,
 				43B4C24F23BDFD580060518C /* MontserratAlternates-Regular.otf in Resources */,
 				43B4C25223BDFD580060518C /* MontserratAlternates-Italic.otf in Resources */,
+				43EB8BC8241173BB006C20C1 /* countries.json in Resources */,
 				43B4C23223BDFD580060518C /* MontserratAlternates-LightItalic.otf in Resources */,
 				43B4C23323BDFD580060518C /* MontserratAlternates-Medium.otf in Resources */,
 				43B4C24023BDFD580060518C /* Montserrat-LightItalic.otf in Resources */,
 				43B4C25023BDFD580060518C /* MontserratAlternates-ThinItalic.otf in Resources */,
 				43B4C24E23BDFD580060518C /* MontserratAlternates-ExtraLight.otf in Resources */,
 				43B4C23C23BDFD580060518C /* MontserratAlternates-ExtraLightItalic.otf in Resources */,
-				43B4C25F23BDFD580060518C /* GoogleService-Info.plist in Resources */,
 				43B4C22F23BDFD580060518C /* Montserrat-MediumItalic.otf in Resources */,
+				4310824A23F87E8400EB50F5 /* like.json in Resources */,
 				43B4C23923BDFD580060518C /* Montserrat-ExtraLight.otf in Resources */,
 				43B4C24D23BDFD580060518C /* MontserratAlternates-Light.otf in Resources */,
 				43B4C23823BDFD580060518C /* MontserratAlternates-MediumItalic.otf in Resources */,
@@ -750,6 +922,8 @@
 				43B4C23423BDFD580060518C /* Montserrat-BoldItalic.otf in Resources */,
 				43B4C25423BDFD580060518C /* client_506099714873-3r27hlcv5kuijhn9penqfkoik73438rp.apps.googleusercontent.com.plist in Resources */,
 				43B4C23623BDFD580060518C /* Montserrat-ThinItalic.otf in Resources */,
+				4332099623F40BF50084C4FA /* loading.json in Resources */,
+				4310824523F41A8F00EB50F5 /* tik.json in Resources */,
 				43B4C24B23BDFD580060518C /* Montserrat-ExtraBold.otf in Resources */,
 				43B4C24223BDFD580060518C /* MontserratAlternates-SemiBoldItalic.otf in Resources */,
 				43B4C22B23BDFD580060518C /* map_style.json in Resources */,
@@ -762,6 +936,7 @@
 				43B4C23123BDFD580060518C /* MontserratAlternates-Black.otf in Resources */,
 				43B4C23D23BDFD580060518C /* Montserrat-Bold.ttf in Resources */,
 				43B4C24823BDFD580060518C /* MontserratAlternates-ExtraBold.otf in Resources */,
+				4357EE8323EB007000FB97F2 /* GROBOLD.otf in Resources */,
 				43B4C23E23BDFD580060518C /* MontserratAlternates-Thin.otf in Resources */,
 				43B4C24123BDFD580060518C /* Montserrat-Medium.otf in Resources */,
 				43B4C23F23BDFD580060518C /* Montserrat-BlackItalic.ttf in Resources */,
@@ -773,6 +948,7 @@
 				43B4C1EC23BDFD330060518C /* Assets.xcassets in Resources */,
 				43B4C24323BDFD580060518C /* Montserrat-SemiBoldItalic.otf in Resources */,
 				43B4C1C623BDFCFC0060518C /* LaunchScreen.storyboard in Resources */,
+				43EB8BC6241173B5006C20C1 /* CountryPicker.bundle in Resources */,
 				43B4C25323BDFD580060518C /* Montserrat-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -874,31 +1050,53 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-knockknocked/Pods-knockknocked-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CountdownLabel/CountdownLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
 				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/MessengerKit/MessengerKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
 				"${BUILT_PRODUCTS_DIR}/PickerView/PickerView.framework",
+				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenuSwift/SideMenuSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TableFlip/TableFlip.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 				"${BUILT_PRODUCTS_DIR}/VACalendar/VACalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountdownLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessengerKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PickerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenuSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TableFlip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VACalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -917,46 +1115,72 @@
 				43B4C25B23BDFD580060518C /* EyeView.swift in Sources */,
 				43B4C3EF23BE2EA90060518C /* GMULineString.m in Sources */,
 				43B4C3F423BE2EA90060518C /* GMUSimpleClusterAlgorithm.m in Sources */,
+				43FCF77F23D6544C006FE274 /* calenderViewController.swift in Sources */,
 				43B4C3F623BE2EA90060518C /* GMUDefaultClusterRenderer.m in Sources */,
 				43B4C1BB23BDFCFA0060518C /* ViewController.swift in Sources */,
 				43B4C25523BDFD580060518C /* timeViewController.swift in Sources */,
 				43B4C3F023BE2EA90060518C /* GMUGeoJSONParser.m in Sources */,
 				43B4C25823BDFD580060518C /* CustomSlider.swift in Sources */,
+				4367312F23CE2A8700F028BF /* addressViewController.swift in Sources */,
 				43B4C25C23BDFD580060518C /* ProgressableAnimationView.swift in Sources */,
 				43B4C3EA23BE2EA80060518C /* GMUFeature.m in Sources */,
+				43E1D5272401B69400B40039 /* uploadimageViewController.swift in Sources */,
 				43B4C3EB23BE2EA90060518C /* GMUGroundOverlay.m in Sources */,
 				43B4C22E23BDFD580060518C /* CustomTransition.swift in Sources */,
 				43B4C3F823BE2EA90060518C /* GMUStaticCluster.m in Sources */,
+				43EB8BCC241173CC006C20C1 /* SRCountryPickerController.swift in Sources */,
 				43B4C3E723BE2EA80060518C /* GMUPlacemark.m in Sources */,
+				4367313323CE3F2400F028BF /* UITableView+Extension.swift in Sources */,
+				43A4262723E087D200CFABA7 /* contactViewController.swift in Sources */,
+				43A4261C23DED53E00CFABA7 /* registerViewController.swift in Sources */,
 				43B4C3EE23BE2EA90060518C /* GMUPair.m in Sources */,
 				43B4C3F323BE2EA90060518C /* GMUWrappingDictionaryKey.m in Sources */,
 				43B4C1B723BDFCFA0060518C /* AppDelegate.swift in Sources */,
+				43897A6B23E18B9B005D74B2 /* selectchatViewController.swift in Sources */,
+				43FCF78223D661EE006FE274 /* bussinesViewController.swift in Sources */,
+				43A4261E23DF81A300CFABA7 /* businessfinalViewController.swift in Sources */,
 				43B4C3EC23BE2EA90060518C /* GMUStyle.m in Sources */,
 				43B4C1C123BDFCFA0060518C /* knockknocked.xcdatamodeld in Sources */,
+				43897A6F23E2B0EE005D74B2 /* verifyViewController.swift in Sources */,
 				43B4C25723BDFD580060518C /* GeometryHelper.swift in Sources */,
+				4357EE7B23E70F5A00FB97F2 /* Emoji.swift in Sources */,
 				43B4C3E423BE2EA80060518C /* GMUKMLParser.m in Sources */,
 				43B4C25623BDFD580060518C /* rateViewController.swift in Sources */,
 				43B4C3DF23BE2EA80060518C /* GQTPointQuadTree.m in Sources */,
 				43B4C3E023BE2EA80060518C /* GQTPointQuadTreeChild.m in Sources */,
+				4310824E23F95F1800EB50F5 /* splashViewController.swift in Sources */,
 				43B4C26023BDFD580060518C /* listViewController.swift in Sources */,
 				43B4C3E523BE2EA80060518C /* GMUGeometryRenderer.m in Sources */,
+				4357EE8123E8A21B00FB97F2 /* menusideViewController.swift in Sources */,
+				43897A8C23E5B6DD005D74B2 /* AddaddressViewController.swift in Sources */,
+				43897A6823E099D1005D74B2 /* invitedViewController.swift in Sources */,
 				43B4C3ED23BE2EA90060518C /* GMUPoint.m in Sources */,
 				43B4C3F123BE2EA90060518C /* GMUClusterManager.m in Sources */,
 				43B4C3F523BE2EA90060518C /* GMUNonHierarchicalDistanceBasedAlgorithm.m in Sources */,
 				43B4C3E223BE2EA80060518C /* GMUGradient.m in Sources */,
 				43B4C25D23BDFD580060518C /* BackgroundView.swift in Sources */,
 				43B4C22C23BDFD580060518C /* detailViewController.swift in Sources */,
+				4357EE7F23E7109F00FB97F2 /* chatting.swift in Sources */,
 				43B4C1B923BDFCFA0060518C /* SceneDelegate.swift in Sources */,
 				43B4C26123BDFD580060518C /* firstpageViewController.swift in Sources */,
+				4357EE7D23E70F6000FB97F2 /* User.swift in Sources */,
+				43897A7C23E2E2C2005D74B2 /* loginViewController.swift in Sources */,
 				43B4C3E623BE2EA80060518C /* GMUGeometryCollection.m in Sources */,
+				43EB8BCB241173CC006C20C1 /* CountryTableViewCell.swift in Sources */,
 				43B4C22D23BDFD580060518C /* CB3DSelectCell.swift in Sources */,
+				43E1D5252401AE7200B40039 /* veryfiregisterViewController.swift in Sources */,
 				43B4C25E23BDFD580060518C /* MouthView.swift in Sources */,
 				43B4C3E323BE2EA80060518C /* GMUHeatmapTileLayer.m in Sources */,
+				4310824C23F87FFC00EB50F5 /* writereviewViewController.swift in Sources */,
 				43B4C25A23BDFD580060518C /* ShakeView.swift in Sources */,
 				43B4C3E123BE2EA80060518C /* GMUWeightedLatLng.m in Sources */,
 				43B4C3E823BE2EA80060518C /* GMUPolygon.m in Sources */,
+				4389BF5724000B14008977E2 /* bussinestimeslotViewController.swift in Sources */,
+				43A4261923D8C76E00CFABA7 /* filterViewController.swift in Sources */,
 				43B4C3F223BE2EA90060518C /* GMUGridBasedClusterAlgorithm.m in Sources */,
+				4332099423F40A990084C4FA /* LottieHUD.swift in Sources */,
 				43B4C3F723BE2EA90060518C /* GMUDefaultClusterIconGenerator.m in Sources */,
+				43897A9A23E6FFB8005D74B2 /* chattingViewController.swift in Sources */,
 				43B4C25923BDFD580060518C /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1123,15 +1347,19 @@
 			baseConfigurationReference = 2BD78EF012BF264C4656C32D /* Pods-knockknocked.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = knockknocked/knockknocked.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YMM3A5B746;
+				DEVELOPMENT_TEAM = X4648G4H64;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = knockknocked/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pedram.knock-knocked";
+				PRODUCT_BUNDLE_IDENTIFIER = "pedram.knock-knock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1143,15 +1371,19 @@
 			baseConfigurationReference = 74D592A2857FE1CA69A63D03 /* Pods-knockknocked.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = knockknocked/knockknocked.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YMM3A5B746;
+				DEVELOPMENT_TEAM = X4648G4H64;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = knockknocked/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pedram.knock-knocked";
+				PRODUCT_BUNDLE_IDENTIFIER = "pedram.knock-knock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

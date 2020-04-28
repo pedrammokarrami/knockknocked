@@ -18,6 +18,7 @@ import UIKit
 /// └── Content View Controller
 open class SideMenuController: UIViewController {
 
+    
     /// Configure this property to change the behavior of SideMenuController;
     public static var preferences = Preferences()
     private var preferences: Preferences {
@@ -154,7 +155,7 @@ open class SideMenuController: UIViewController {
     // you must not override this method."
     open override func viewDidLoad() {
         super.viewDidLoad()
-
+ 
         // Setup from the IB
         // Side menu may be initialized from the IB while segues are not used, thus passing the performing of
         // segues if content and menu is already set

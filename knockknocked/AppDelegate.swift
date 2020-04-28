@@ -9,17 +9,36 @@
 import UIKit
 import CoreData
 import GoogleMaps
+import Firebase
+import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    
+    
+   
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-       
-        GMSServices.provideAPIKey("AIzaSyDOotnnPSnqhjW-Sp1ndeBb_IBeZsXALaU")
-               
+        
+        FirebaseApp.configure()
+        GMSServices.provideAPIKey("AIzaSyDfnDorN2Oym4Co3zy83u2dEKKebZXO_g4")
+        
+   
+          UNUserNotificationCenter.current().delegate = self
+          let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
+          UNUserNotificationCenter.current().requestAuthorization( options: authOptions, completionHandler: {_, _ in } )
+          application.registerForRemoteNotifications()
+        
         return true
+    }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+         
+       }
+       
+       func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+           print("Unable to register for remote notifications: \(error.localizedDescription)")
     }
 
     // MARK: UISceneSession Lifecycle
@@ -83,3 +102,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate: UNUserNotificationCenterDelegate {
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        
+        let userInfo = notification.request.content.userInfo
+        print("willPresent notification: \(userInfo)")
+        
+       
+        
+        completionHandler([.alert, .sound])
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        
+        let userInfo = response.notification.request.content.userInfo
+        print("didReceive response: \(userInfo)" )
+       
+        
+        completionHandler()
+    }
+}
+
+extension AppDelegate: MessagingDelegate {
+    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String) {
+        print("Firebase registration token: \(fcmToken)")
+    }
+    
+    func messaging(_ messaging: Messaging, didReceive remoteMessage: MessagingRemoteMessage) {
+        print("Received data message: \(remoteMessage.appData)")
+    }
+}

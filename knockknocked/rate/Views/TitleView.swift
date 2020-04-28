@@ -21,7 +21,7 @@ extension Rate {
     }
 }
 
-class TitleView: AnimationView {
+class TitleView: AnimationViewrate {
 
     class TitleLabel: UILabel {
         var state: Rate!

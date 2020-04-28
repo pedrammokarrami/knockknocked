@@ -8,9 +8,47 @@
 
 import UIKit
 
-class rateViewController: UIViewController {
-
-  
+class rateViewController: UIViewController, UITextFieldDelegate {
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.view.frame = CGRect(x:self.view.frame.origin.x, y:self.view.frame.origin.y - 200, width:self.view.frame.size.width, height:self.view.frame.size.height);
+                
+            })
+        }
+        
+        func textFieldDidEndEditing(_ textField: UITextField) {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.view.frame = CGRect(x:self.view.frame.origin.x, y:self.view.frame.origin.y + 200, width:self.view.frame.size.width, height:self.view.frame.size.height);
+                
+            })
+        }
+    
+    var userid1 = ""
+    var proid = ""
+    var likepro : Bool = false
+    var qulit = 0
+    var ratepro = 0
+    
+    
+    @IBOutlet var titlelable: UILabel!
+    
+    @IBOutlet var firstview: UIView!
+    
+    
+    
+    @IBOutlet var rate: UIButton!
+    
+    @IBAction func rate(_ sender: Any) {
+        firstview.isHidden = true
+        titlelable.text = "How was quality of service"
+        
+    }
+    
+    
+   
+    
+    
     @IBOutlet private weak var leftEye: EyeView! {
                didSet {
                    leftEye.mode = .left
@@ -36,13 +74,15 @@ class rateViewController: UIViewController {
         @IBOutlet private weak var textValueView: TitleView!
         @IBOutlet private weak var faceContainer: UIView!
         private var shakeTimer: Timer?
-        private let startState: Rate = .normal
+    private let startState: Rate = .bad
 
         override func viewDidLoad() {
             super.viewDidLoad()
             textValueView.updateState(to: startState)
             slider.setValue(startState.keyTime, animated: false)
             sliderMoved(sender: slider)
+//            review.delegate = self
+            titlelable.text = "How was the price ?"
         }
 
         private func startShaking() {
@@ -124,5 +164,6 @@ class rateViewController: UIViewController {
                 self.slider.setValue(self.targetState.keyTime, animated: true)
             })
         }
-
+    
+    
     }

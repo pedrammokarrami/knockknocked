@@ -41,7 +41,7 @@ public class VACalendarView: UIScrollView {
     public var monthVerticalHeaderHeight: CGFloat = 20
     
     public var startDate = Date()
-    public var showDaysOut = true
+    public var showDaysOut = false
     public var selectionStyle: VASelectionStyle = .single
     
     private var calculatedWeekHeight: CGFloat = 100

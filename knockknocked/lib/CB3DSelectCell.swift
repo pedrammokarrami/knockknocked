@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Foundation
+
+
 
 class CB3DSelectCell: UICollectionViewCell {
     
@@ -17,8 +20,8 @@ class CB3DSelectCell: UICollectionViewCell {
     
     var offsetDirection: OffsetDirection = .right
     var animationDuration: CFTimeInterval = 0.35
-    var maxCornerRadius: CGFloat = 14.0
-    var selectionColor: UIColor = #colorLiteral(red: 0.2905777395, green: 0.3933759034, blue: 0.9797427058, alpha: 1)
+    var maxCornerRadius: CGFloat = 4.0
+    var selectionColor: UIColor = #colorLiteral(red: 0.3869723082, green: 0.1855167449, blue: 0.9582156539, alpha: 1)
     var selectionTimingFunction: CAMediaTimingFunction = CAMediaTimingFunction(name: .easeOut)
     
     private static let animationKey: String = "CBAnimationSelectionCellSelectAnimation"
@@ -26,12 +29,14 @@ class CB3DSelectCell: UICollectionViewCell {
     private var snapshotContainer: UIView =  {
         let view = UIView()
         view.layer.shadowColor = UIColor.black.cgColor
+        
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     private var snapshotView: UIImageView =  {
         let imageView = UIImageView()
         imageView.layer.shadowColor = UIColor.black.cgColor
+        
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.clipsToBounds = true
         return imageView
@@ -77,6 +82,9 @@ class CB3DSelectCell: UICollectionViewCell {
         csOverlaySideViewLeft?.isActive = true
     }
     
+   
+       
+    
     private func configureSnapshot() {
         snapshotContainer.addSubview(snapshotView)
         snapshotView.topAnchor.constraint(equalTo: snapshotContainer.topAnchor).isActive = true
@@ -87,8 +95,17 @@ class CB3DSelectCell: UICollectionViewCell {
         snapshotContainer.addGestureRecognizer(gesture)
     }
     
+    
+    
     @objc private func snapshotTapped() {
         guard _selected else { return }
+    
+     
+        
+        NotificationCenter.default.post(name: Notification.Name("NotificationIdentifier1"), object: nil)
+
+
+              hidding = true
         deselect(animated: true)
         if let collectionView = superview as? UICollectionView,
            let indexPath = collectionView.indexPath(for: self) {
@@ -96,18 +113,36 @@ class CB3DSelectCell: UICollectionViewCell {
         }
     }
     
+    
+  
+    
     var _selected: Bool = false
+    var hidding:Bool = true
     
     func deselect(animated: Bool) {
+        
+       
+        
+        self.hidding = true
+       
         guard _selected else { return }
         _selected = false
+       
+        
+     
         let finishDeselection: ()->Void = { [weak self] in
+       
+            self?.hidding = true
+//            self?.hidding = true
+            
+           
             if let csCenterX = self?.csCenterX {
                 self?.snapshotView.superview?.removeConstraint(csCenterX)
             }
             if let csCenterY = self?.csCenterY {
                 self?.snapshotView.superview?.removeConstraint(csCenterY)
             }
+         
             self?.csCenterX = nil
             self?.csCenterY = nil
             self?.overlayView.isHidden = true
@@ -116,9 +151,11 @@ class CB3DSelectCell: UICollectionViewCell {
             self?.snapshotView.layer.removeAllAnimations()
             self?.snapshotContainer.layer.transform = CATransform3DIdentity
             self?.overlayView.isHidden = true
+//            self?.hiddd1.hideee()
         }
         guard animated else {
             finishDeselection()
+         
             return
         }
         let presentationLayer = snapshotContainer.layer.presentation() ?? snapshotContainer.layer
@@ -169,16 +206,48 @@ class CB3DSelectCell: UICollectionViewCell {
         CATransaction.commit()
     }
     
+   
+    
+//   func hidecell() {
+//        let timw = timeViewController()
+//         UserDefaults.standard.set(hidding, forKey: "didSkip1")
+//     DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+//
+//    timw.awakeFromNib()
+//    }
+//    }
+//
+   
+    
+    
     func select(animated: Bool) {
-        guard !_selected else { return }
+        
+             
+        guard !_selected else {    return }
         _selected = true
         guard let superview = superview else {
+            
             return
         }
+       
+//        let timm = timeViewController()
+//
+//        timm.res
+//         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+//            timm.awakeFromNib()
+//             print("pedddd")
+//        }
+//
+        
+       
+     
+//        hiddd1.reserve.isHidden = false
+      
         let wasHidden = layer.isHidden
         layer.isHidden = false
         UIGraphicsBeginImageContextWithOptions(CGSize(width: frame.width, height: frame.height), false, UIScreen.main.scale)
         layer.render(in: UIGraphicsGetCurrentContext()!)
+//        hiddd1.hideee()
         
         let capturedImage = UIGraphicsGetImageFromCurrentImageContext()
         
@@ -188,7 +257,7 @@ class CB3DSelectCell: UICollectionViewCell {
         overlaySideView.backgroundColor = selectionColor
         overlayView.isHidden = false
         bringSubviewToFront(overlayView)
-        
+
         snapshotView.image = capturedImage
         superview.addSubview(snapshotContainer)
         superview.bringSubviewToFront(snapshotContainer)
@@ -220,6 +289,7 @@ class CB3DSelectCell: UICollectionViewCell {
         }
         
         if animated {
+             self.hidding = false
             let animationGroup = CAAnimationGroup()
             let translate = CABasicAnimation(keyPath: "transform.translation")
             translate.fromValue = CGSize.zero
@@ -229,7 +299,7 @@ class CB3DSelectCell: UICollectionViewCell {
             
             let shadowOpacity = CABasicAnimation(keyPath: "shadowOpacity")
             shadowOpacity.fromValue = 0
-            shadowOpacity.toValue = 0.3
+            shadowOpacity.toValue = 0.4
             shadowOpacity.timingFunction = selectionTimingFunction
             
             let shadowOffset = CABasicAnimation(keyPath: "shadowOffset")
@@ -259,11 +329,14 @@ class CB3DSelectCell: UICollectionViewCell {
             animationGroup.duration =  animationDuration
             snapshotContainer.layer.add(animationGroup, forKey: type(of: self).animationKey)
             snapshotView.layer.add(cornerRadius, forKey: type(of: self).animationKey)
+            
         } else {
+            
+          
             snapshotContainer.layer.transform = CATransform3DTranslate(CATransform3DIdentity,
                                                                   horOffsetMultiplier * frame.width * 0.2,
                                                                   -frame.height * 0.2, 0)
-            snapshotContainer.layer.shadowOpacity = 0.3
+            snapshotContainer.layer.shadowOpacity = 0.4
             snapshotContainer.layer.shadowOffset = CGSize(width: horOffsetMultiplier * -20.0, height: 45.0)
             snapshotContainer.layer.shadowRadius = 35.0
             snapshotContainer.layer.cornerRadius = maxCornerRadius
