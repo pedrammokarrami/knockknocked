@@ -122,6 +122,7 @@
 		43B4C3F623BE2EA90060518C /* GMUDefaultClusterRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3D723BE2EA80060518C /* GMUDefaultClusterRenderer.m */; };
 		43B4C3F723BE2EA90060518C /* GMUDefaultClusterIconGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3D923BE2EA80060518C /* GMUDefaultClusterIconGenerator.m */; };
 		43B4C3F823BE2EA90060518C /* GMUStaticCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B4C3DC23BE2EA80060518C /* GMUStaticCluster.m */; };
+		43C6CC222465C454007DA448 /* Vanilla-1s-280px (1).gif in Resources */ = {isa = PBXBuildFile; fileRef = 43C6CC212465C453007DA448 /* Vanilla-1s-280px (1).gif */; };
 		43E1D5252401AE7200B40039 /* veryfiregisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E1D5242401AE7200B40039 /* veryfiregisterViewController.swift */; };
 		43E1D5272401B69400B40039 /* uploadimageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E1D5262401B69400B40039 /* uploadimageViewController.swift */; };
 		43EB8BC6241173B5006C20C1 /* CountryPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 43EB8BC5241173B5006C20C1 /* CountryPicker.bundle */; };
@@ -319,6 +320,7 @@
 		43B4C3DC23BE2EA80060518C /* GMUStaticCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUStaticCluster.m; sourceTree = "<group>"; };
 		43B4C3DD23BE2EA80060518C /* GMUCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUCluster.h; sourceTree = "<group>"; };
 		43B4C3DE23BE2EA80060518C /* GMUClusterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUClusterItem.h; sourceTree = "<group>"; };
+		43C6CC212465C453007DA448 /* Vanilla-1s-280px (1).gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Vanilla-1s-280px (1).gif"; sourceTree = "<group>"; };
 		43E1D5242401AE7200B40039 /* veryfiregisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = veryfiregisterViewController.swift; sourceTree = "<group>"; };
 		43E1D5262401B69400B40039 /* uploadimageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadimageViewController.swift; sourceTree = "<group>"; };
 		43EB8BC5241173B5006C20C1 /* CountryPicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CountryPicker.bundle; sourceTree = "<group>"; };
@@ -481,6 +483,7 @@
 				43B4C1BA23BDFCFA0060518C /* ViewController.swift */,
 				43B4C1E923BDFD240060518C /* Main.storyboard */,
 				43B4C1EB23BDFD330060518C /* Assets.xcassets */,
+				43C6CC212465C453007DA448 /* Vanilla-1s-280px (1).gif */,
 				43B4C1C423BDFCFC0060518C /* LaunchScreen.storyboard */,
 				43B4C1C723BDFCFC0060518C /* Info.plist */,
 				43B4C21923BDFD570060518C /* client_506099714873-3r27hlcv5kuijhn9penqfkoik73438rp.apps.googleusercontent.com.plist */,
@@ -934,6 +937,7 @@
 				43B4C24923BDFD580060518C /* Montserrat-Black.ttf in Resources */,
 				43B4C24523BDFD580060518C /* Montserrat-Italic.otf in Resources */,
 				43B4C23123BDFD580060518C /* MontserratAlternates-Black.otf in Resources */,
+				43C6CC222465C454007DA448 /* Vanilla-1s-280px (1).gif in Resources */,
 				43B4C23D23BDFD580060518C /* Montserrat-Bold.ttf in Resources */,
 				43B4C24823BDFD580060518C /* MontserratAlternates-ExtraBold.otf in Resources */,
 				4357EE8323EB007000FB97F2 /* GROBOLD.otf in Resources */,
@@ -1053,6 +1057,7 @@
 				"${BUILT_PRODUCTS_DIR}/CountdownLabel/CountdownLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/Gifu/Gifu.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
 				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
@@ -1079,6 +1084,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountdownLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gifu.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",

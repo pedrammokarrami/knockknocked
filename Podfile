@@ -31,6 +31,7 @@ pod 'FirebaseAuth'
 pod 'Firebase'
 pod 'FirebaseCore'
 pod 'FirebaseMessaging'
+pod 'Gifu'
 
 
 #pod 'Google-Maps-iOS-Utils'

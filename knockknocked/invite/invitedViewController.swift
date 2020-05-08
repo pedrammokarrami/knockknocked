@@ -72,7 +72,7 @@ class invitedViewController: UIViewController, CNContactPickerDelegate {
 
         let header:HTTPHeaders = ["accept":"application/json"]
           let paramer:Parameters = ["cellphone":text1.text!]
-        Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/user_friend", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+        Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/user_friend", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
       
         
         

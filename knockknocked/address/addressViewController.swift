@@ -29,7 +29,7 @@ class addressViewController: UIViewController, UITableViewDelegate, UITableViewD
 let token = UserDefaults.standard.object(forKey: "token") as! String
         let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
       
-         Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/user/me/", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+         Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/user/me/", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
        
          
 
@@ -81,7 +81,7 @@ let token = UserDefaults.standard.object(forKey: "token") as! String
     let token = UserDefaults.standard.object(forKey: "token") as! String
             let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
             let paramer:Parameters = ["id":iddelet]
-        let ur = "http://dev.hoonamapps.com/telemarket/api/v0/user_favorite/\(iddelet)/"
+        let ur = "https://api.knockknocked.com/telemarket/api/v0/user_favorite/\(iddelet)/"
             Alamofire.request(ur, method: .delete, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
            
    

@@ -52,7 +52,7 @@ class listViewController: UIViewController, TransitionInfoProtocol {
    func server() {
 
           let header:HTTPHeaders = ["accept":"application/json"]
-          Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/service/", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+          Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/service/", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
         
             if response.response?.statusCode == 200{
                 

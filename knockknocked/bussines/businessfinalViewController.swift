@@ -325,7 +325,7 @@ func textFieldDidBeginEditing(_ textField: UITextField) {
     let token = UserDefaults.standard.object(forKey: "token") as! String
           let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
         let paramer:Parameters = ["latitude":lat1,"longitude":long1]
-         Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/provider_location/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+         Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/provider_location/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
        
         
     

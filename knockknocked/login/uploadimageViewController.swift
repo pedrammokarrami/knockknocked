@@ -65,7 +65,7 @@ class uploadimageViewController: UIViewController, UITextFieldDelegate {
                 for (key, value) in param {
                     multipartFormData.append("\(value)".data(using: String.Encoding.utf8)!, withName: key)
                 }
-            }, to: "http://dev.hoonamapps.com/telemarket/api/v0/user/avatar/",headers: header)
+            }, to: "https://api.knockknocked.com/telemarket/api/v0/user/avatar/",headers: header)
             { (result) in
                 switch result {
                 case .success(let upload, _, _):

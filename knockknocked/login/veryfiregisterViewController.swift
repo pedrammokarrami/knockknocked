@@ -43,7 +43,7 @@ class veryfiregisterViewController: UIViewController, UITextFieldDelegate {
 
             let header:HTTPHeaders = ["accept":"application/json"]
               let paramer:Parameters = ["cellphone":mobile, "verification_code":code.text! ]
-            Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/register/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+            Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/register/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
           
            
             
@@ -165,7 +165,7 @@ class veryfiregisterViewController: UIViewController, UITextFieldDelegate {
      let mobile = UserDefaults.standard.object(forKey: "mobile") as! String
             let header:HTTPHeaders = ["accept":"application/json"]
               let paramer:Parameters = ["cellphone":mobile]
-            Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/register/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+            Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/register/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
           
             
             

@@ -130,7 +130,7 @@ class firstpageViewController: UIViewController, UICollectionViewDelegate, UICol
         clean()
        
         let header:HTTPHeaders = ["accept":"application/json"]
-        Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/provider", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+        Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/provider", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
          
           if response.response?.statusCode == 200{
               
@@ -200,7 +200,7 @@ class firstpageViewController: UIViewController, UICollectionViewDelegate, UICol
        
       
         let header:HTTPHeaders = ["accept":"application/json"]
-       Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/provider/?service=\(categorys)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+       Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/provider/?service=\(categorys)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
  
          if response.response?.statusCode == 200{
              
@@ -318,7 +318,7 @@ self.idpros1 = idpp
        
         let userid = UserDefaults.standard.object(forKey: "userid") as! Int
         let paramer:Parameters = ["device_id":uuid,"registration_id":fcm1,"type":"ios","user":userid]
-             Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/notification/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+             Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/notification/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
            
              print(response)
              

@@ -167,7 +167,7 @@ class contactViewController: UIViewController, CNContactPickerDelegate, UITextFi
 
         let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
         let paramer:Parameters = ["cellphone":text1.text!]
-                       Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/user_friend/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+                       Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/user_friend/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
                      
                       
                   
@@ -180,7 +180,7 @@ class contactViewController: UIViewController, CNContactPickerDelegate, UITextFi
 
            let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
            let paramer:Parameters = ["cellphone":text2.text!]
-                          Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/user_friend/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+                          Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/user_friend/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
                         
                          
                      
@@ -193,7 +193,7 @@ class contactViewController: UIViewController, CNContactPickerDelegate, UITextFi
 
            let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
            let paramer:Parameters = ["cellphone":text3.text!]
-                          Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/user_friend/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+                          Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/user_friend/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
                         
                          
                      
@@ -206,7 +206,7 @@ class contactViewController: UIViewController, CNContactPickerDelegate, UITextFi
 //
 //           let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
 //           let paramer:Parameters = ["cellphone":text4.text!]
-//                          Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/user_friend/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+//                          Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/user_friend/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
 //
 //
 //
@@ -219,7 +219,7 @@ class contactViewController: UIViewController, CNContactPickerDelegate, UITextFi
 //
 //           let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
 //           let paramer:Parameters = ["cellphone":text5.text!]
-//                          Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/user_friend/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+//                          Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/user_friend/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
 //
 //
 //
@@ -242,7 +242,7 @@ let userid = UserDefaults.standard.object(forKey: "userid") as! Int
         
         let header:HTTPHeaders = ["accept":"application/json","Authorization":"bearer \(token)"]
         let paramer:Parameters = ["user":userid,"service":servicepro,"service_kind":serkind,"description":descriptionpro,"instagram":instapro,"web":webpro,"job_done_time":sertime]
-                 Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/provider/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+                 Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/provider/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
                
                 print(paramer)
                     print(header)
@@ -290,7 +290,7 @@ let userid = UserDefaults.standard.object(forKey: "userid") as! Int
         let token = UserDefaults.standard.object(forKey: "token") as! String
               let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
             let paramer:Parameters = ["latitude":lat1,"longitude":long1]
-             Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/provider_location/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+             Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/provider_location/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
            
             
         
@@ -311,7 +311,7 @@ let userid = UserDefaults.standard.object(forKey: "userid") as! Int
            let token = UserDefaults.standard.object(forKey: "token") as! String
                  let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
                let paramer:Parameters = ["latitude":lat1,"longitude":long1]
-                Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/provider_location/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+                Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/provider_location/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
               
                
            
@@ -332,7 +332,7 @@ let userid = UserDefaults.standard.object(forKey: "userid") as! Int
            let token = UserDefaults.standard.object(forKey: "token") as! String
                  let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
                let paramer:Parameters = ["latitude":lat1,"longitude":long1]
-                Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/provider_location/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+                Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/provider_location/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
               
                
            

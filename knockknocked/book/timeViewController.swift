@@ -51,7 +51,7 @@ class timeViewController: UIViewController, UICollectionViewDataSource, UICollec
         
               let header:HTTPHeaders = ["accept":"application/json","X-CSRFToken":token]
         let paramer:Parameters = ["provider":idpro,"latitude":latpro,"longitude":longpro,"order_date":time,"order_time":saat1]
-             Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/order/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+             Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/order/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
            
              print(response)
         print(paramer)

@@ -93,7 +93,7 @@ class registerViewController: UIViewController, UITextFieldDelegate {
 
       let header:HTTPHeaders = ["accept":"application/json"]
         let paramer:Parameters = ["cellphone":phonenumber.text!, "first_name":firstname.text! , "last_name":lastname.text!]
-      Alamofire.request("http://dev.hoonamapps.com/telemarket/api/v0/register/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
+      Alamofire.request("https://api.knockknocked.com/telemarket/api/v0/register/", method: .post, parameters: paramer, encoding: JSONEncoding.default, headers: header).responseJSON { (response) in
     
       
       
